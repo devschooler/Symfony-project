@@ -105,6 +105,24 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         }
 
+        // td_admin_default_index
+        if (rtrim($pathinfo, '/') === '') {
+            if (substr($pathinfo, -1) !== '/') {
+                return $this->redirect($pathinfo.'/', 'td_admin_default_index');
+            }
+
+            return array (  '_controller' => 'TD\\AdminBundle\\Controller\\DefaultController::indexAction',  '_route' => 'td_admin_default_index',);
+        }
+
+        // td_cinema_default_index
+        if (rtrim($pathinfo, '/') === '') {
+            if (substr($pathinfo, -1) !== '/') {
+                return $this->redirect($pathinfo.'/', 'td_cinema_default_index');
+            }
+
+            return array (  '_controller' => 'TD\\CinemaBundle\\Controller\\DefaultController::indexAction',  '_route' => 'td_cinema_default_index',);
+        }
+
         // homepage
         if (rtrim($pathinfo, '/') === '') {
             if (substr($pathinfo, -1) !== '/') {

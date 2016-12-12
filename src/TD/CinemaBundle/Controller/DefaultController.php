@@ -14,4 +14,34 @@ class DefaultController extends Controller
     {
         return $this->render('TDCinemaBundle:Default:index.html.twig');
     }
+
+
+    /**
+     * @Route("/Films")
+     */
+    public function listAction()
+    {
+
+
+        $films = $this->getDoctrine()->getRepository('TDCinemaBundle:Film')->findAll();
+
+        return $this->render('TDCinemaBundle:Film:list.html.twig' , ['films' => $films]
+        );
+
+    }
+
+    /**
+     * @Route("/livre/{id}", requirements={"id": "\d+"})
+     */
+    public function showAction($id)
+    {
+
+        $film = $this->getDoctrine()->getRepository('TDCinemaBundle:Film')->find($id);
+
+
+        return $this->render('TDCinemaBundle:Film:show.html.twig' , ['film' => $film]);
+     }
+
+
+
 }
