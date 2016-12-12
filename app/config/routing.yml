@@ -1,3 +1,13 @@
+td_admin:
+    resource: "@TDAdminBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+td_cinema:
+    resource: "@TDCinemaBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation

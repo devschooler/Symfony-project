@@ -4,3 +4,4 @@
 [2016-12-11 21:58:20] request.INFO: Matched route "homepage". {"route":"homepage","route_parameters":{"_controller":"AppBundle\\Controller\\DefaultController::indexAction","_route":"homepage"},"request_uri":"http://localhost:8000/","method":"GET"} []
 [2016-12-11 21:58:20] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
 [2016-12-11 21:58:20] request.INFO: Matched route "_wdt". {"route":"_wdt","route_parameters":{"_controller":"web_profiler.controller.profiler:toolbarAction","token":"3eb6ee","_route":"_wdt"},"request_uri":"http://localhost:8000/_wdt/3eb6ee","method":"GET"} []
+[2016-12-12 23:03:18] php.DEBUG: Warning: fsockopen(): unable to connect to 127.0.0.1:8000 (Connection refused) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\SilencedErrorContext: {\"severity\":2,\"file\":\"/Applications/MAMP/htdocs/symfony-TD/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Command/ServerCommand.php\",\"line\":59})"} []

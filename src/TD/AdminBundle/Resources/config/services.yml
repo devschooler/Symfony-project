@@ -1,0 +1,4 @@
+services:
+#    td_admin.example:
+#        class: TD\AdminBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
