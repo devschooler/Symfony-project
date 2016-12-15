@@ -17,7 +17,7 @@ class DefaultController extends Controller
 
 
     /**
-     * @Route("/Films")
+     * @Route("/Film")
      */
     public function listAction()
     {
@@ -31,7 +31,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/livre/{id}", requirements={"id": "\d+"})
+     * @Route("/Film/{id}", requirements={"id": "\d+"})
      */
     public function showAction($id)
     {

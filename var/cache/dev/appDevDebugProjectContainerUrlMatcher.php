@@ -123,6 +123,19 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return array (  '_controller' => 'TD\\CinemaBundle\\Controller\\DefaultController::indexAction',  '_route' => 'td_cinema_default_index',);
         }
 
+        if (0 === strpos($pathinfo, '/Film')) {
+            // td_cinema_default_list
+            if ($pathinfo === '/Film') {
+                return array (  '_controller' => 'TD\\CinemaBundle\\Controller\\DefaultController::listAction',  '_route' => 'td_cinema_default_list',);
+            }
+
+            // td_cinema_default_show
+            if (preg_match('#^/Film/(?P<id>\\d+)$#s', $pathinfo, $matches)) {
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'td_cinema_default_show')), array (  '_controller' => 'TD\\CinemaBundle\\Controller\\DefaultController::showAction',));
+            }
+
+        }
+
         // homepage
         if (rtrim($pathinfo, '/') === '') {
             if (substr($pathinfo, -1) !== '/') {
