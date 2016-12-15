@@ -7,85 +7,46 @@ class __TwigTemplate_78fbc2ca2579ef256618ddd096743f2457da422c9aa88eb5e2fbef015dd
     {
         parent::__construct($env);
 
-        $this->parent = false;
-
+        // line 1
+        $this->parent = $this->loadTemplate("TDCinemaBundle::layout.html.twig", "TDCinemaBundle:Film:list.html.twig", 1);
         $this->blocks = array(
+            'body' => array($this, 'block_body'),
         );
+    }
+
+    protected function doGetParent(array $context)
+    {
+        return "TDCinemaBundle::layout.html.twig";
     }
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_ac66c1580b0d0a36564897b6f44a65fe96cb0c44bfdaee660410a79d857f69cb = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_ac66c1580b0d0a36564897b6f44a65fe96cb0c44bfdaee660410a79d857f69cb->enter($__internal_ac66c1580b0d0a36564897b6f44a65fe96cb0c44bfdaee660410a79d857f69cb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDCinemaBundle:Film:list.html.twig"));
+        $__internal_27ebf362d7d7db1dc982f18b3c358f7e4494ec2ec4fd502c29e4ae094f304140 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_27ebf362d7d7db1dc982f18b3c358f7e4494ec2ec4fd502c29e4ae094f304140->enter($__internal_27ebf362d7d7db1dc982f18b3c358f7e4494ec2ec4fd502c29e4ae094f304140_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDCinemaBundle:Film:list.html.twig"));
 
-        $__internal_e0d2b57a1c34cd679c34f74b3b034c6659197053bb33a8a923b034fc69a2a216 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_e0d2b57a1c34cd679c34f74b3b034c6659197053bb33a8a923b034fc69a2a216->enter($__internal_e0d2b57a1c34cd679c34f74b3b034c6659197053bb33a8a923b034fc69a2a216_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDCinemaBundle:Film:list.html.twig"));
+        $__internal_f17a6b05f997aeb20f4a316c152da4227a92fc16d1fb8601073ae48d0fcba0c6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_f17a6b05f997aeb20f4a316c152da4227a92fc16d1fb8601073ae48d0fcba0c6->enter($__internal_f17a6b05f997aeb20f4a316c152da4227a92fc16d1fb8601073ae48d0fcba0c6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDCinemaBundle:Film:list.html.twig"));
 
-        // line 1
-        echo "
-<html>
+        $this->parent->display($context, array_merge($this->blocks, $blocks));
+        
+        $__internal_27ebf362d7d7db1dc982f18b3c358f7e4494ec2ec4fd502c29e4ae094f304140->leave($__internal_27ebf362d7d7db1dc982f18b3c358f7e4494ec2ec4fd502c29e4ae094f304140_prof);
 
-<head>
+        
+        $__internal_f17a6b05f997aeb20f4a316c152da4227a92fc16d1fb8601073ae48d0fcba0c6->leave($__internal_f17a6b05f997aeb20f4a316c152da4227a92fc16d1fb8601073ae48d0fcba0c6_prof);
 
-    <meta charset=\"utf-8\">
-    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
-    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
-    <meta name=\"description\" content=\"\">
-    <meta name=\"author\" content=\"\">
+    }
 
-    <title>Films - Devschool</title>
+    // line 5
+    public function block_body($context, array $blocks = array())
+    {
+        $__internal_719f775a440d775c3304826948ab875d1a514ad4d821b907c0c7d2e779c3a266 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_719f775a440d775c3304826948ab875d1a514ad4d821b907c0c7d2e779c3a266->enter($__internal_719f775a440d775c3304826948ab875d1a514ad4d821b907c0c7d2e779c3a266_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-    <!-- Bootstrap Core CSS -->
-    <link href=\"css/bootstrap.min.css\" rel=\"stylesheet\">
+        $__internal_07533b549261da81544858ad5efad12e7cf6446bca4ef6673387b65715a48e1b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_07533b549261da81544858ad5efad12e7cf6446bca4ef6673387b65715a48e1b->enter($__internal_07533b549261da81544858ad5efad12e7cf6446bca4ef6673387b65715a48e1b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-    <!-- Custom CSS -->
-    <link href=\"css/shop-item.css\" rel=\"stylesheet\">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src=\"https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js\"></script>
-    <script src=\"https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js\"></script>
-    <![endif]-->
-
-</head>
-
-<body>
-
-<!-- Navigation -->
-<nav class=\"navbar navbar-inverse navbar-fixed-top\" role=\"navigation\">
-    <div class=\"container\">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class=\"navbar-header\">
-            <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\">
-                <span class=\"sr-only\">Toggle navigation</span>
-                <span class=\"icon-bar\"></span>
-                <span class=\"icon-bar\"></span>
-                <span class=\"icon-bar\"></span>
-            </button>
-            <a class=\"navbar-brand\" href=\"index.html\">Devschool</a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">
-            <ul class=\"nav navbar-nav\">
-                <li>
-                    <a href=\"#\">Bibliothèque</a>
-                </li>
-                <li class=\"active\">
-                    <a href=\"cinema-films.html\">Cinéma</a>
-                </li>
-                <li>
-                    <a href=\"#\">Admin</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-</nav>
-
-<!-- Page Content -->
-<div class=\"container\">
+        // line 6
+        echo "<div class=\"container\">
 
     <div class=\"row\">
 
@@ -104,31 +65,31 @@ class __TwigTemplate_78fbc2ca2579ef256618ddd096743f2457da422c9aa88eb5e2fbef015dd
             <br />
 
             ";
-        // line 82
+        // line 24
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($context["films"]);
         foreach ($context['_seq'] as $context["_key"] => $context["films"]) {
-            // line 83
+            // line 25
             echo "
             <div class=\"thumbnail\">
                 <div class=\"caption-full\">
                     <h4 class=\"pull-right\">Science-Fiction</h4>
                     <h4>  ";
-            // line 87
+            // line 29
             echo twig_escape_filter($this->env, $this->getAttribute($context["films"], "titre", array()), "html", null, true);
             echo "</h4>
                     <p> ";
-            // line 88
+            // line 30
             echo twig_escape_filter($this->env, $this->getAttribute($context["films"], "synopsis", array()), "html", null, true);
             echo "</p>
                 </div>
                 <div class=\"ratings\">
                     <p class=\"pull-right\">";
-            // line 91
+            // line 33
             echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["films"], "dateDeSortie", array()), "d,m,Y"), "html", null, true);
             echo "</p>
                     <p>Réalisé par : <a href=\"cinema-films-realisateur.html\">";
-            // line 92
+            // line 34
             echo twig_escape_filter($this->env, $this->getAttribute($context["films"], "realisateur", array()), "html", null, true);
             echo "</a></p>
                 </div>
@@ -139,45 +100,19 @@ class __TwigTemplate_78fbc2ca2579ef256618ddd096743f2457da422c9aa88eb5e2fbef015dd
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['films'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 97
+        // line 39
         echo "        </div>
 
     </div>
 
 </div>
-<!-- /.container -->
 
-<div class=\"container\">
-
-    <hr>
-
-    <!-- Footer -->
-    <footer>
-        <div class=\"row\">
-            <div class=\"col-lg-12\">
-                <p>Copyright &copy; Devschool Steve 2016</p>
-            </div>
-        </div>
-    </footer>
-
-</div>
-<!-- /.container -->
-
-<!-- jQuery -->
-<script src=\"js/jquery.js\"></script>
-
-<!-- Bootstrap Core JavaScript -->
-<script src=\"js/bootstrap.min.js\"></script>
-
-</body>
-
-</html>
 ";
         
-        $__internal_ac66c1580b0d0a36564897b6f44a65fe96cb0c44bfdaee660410a79d857f69cb->leave($__internal_ac66c1580b0d0a36564897b6f44a65fe96cb0c44bfdaee660410a79d857f69cb_prof);
+        $__internal_07533b549261da81544858ad5efad12e7cf6446bca4ef6673387b65715a48e1b->leave($__internal_07533b549261da81544858ad5efad12e7cf6446bca4ef6673387b65715a48e1b_prof);
 
         
-        $__internal_e0d2b57a1c34cd679c34f74b3b034c6659197053bb33a8a923b034fc69a2a216->leave($__internal_e0d2b57a1c34cd679c34f74b3b034c6659197053bb33a8a923b034fc69a2a216_prof);
+        $__internal_719f775a440d775c3304826948ab875d1a514ad4d821b907c0c7d2e779c3a266->leave($__internal_719f775a440d775c3304826948ab875d1a514ad4d821b907c0c7d2e779c3a266_prof);
 
     }
 
@@ -193,7 +128,7 @@ class __TwigTemplate_78fbc2ca2579ef256618ddd096743f2457da422c9aa88eb5e2fbef015dd
 
     public function getDebugInfo()
     {
-        return array (  143 => 97,  132 => 92,  128 => 91,  122 => 88,  118 => 87,  112 => 83,  108 => 82,  25 => 1,);
+        return array (  104 => 39,  93 => 34,  89 => 33,  83 => 30,  79 => 29,  73 => 25,  69 => 24,  49 => 6,  40 => 5,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -206,69 +141,11 @@ class __TwigTemplate_78fbc2ca2579ef256618ddd096743f2457da422c9aa88eb5e2fbef015dd
 
     public function getSourceContext()
     {
-        return new Twig_Source("
-<html>
+        return new Twig_Source("{% extends 'TDCinemaBundle::layout.html.twig' %}
 
-<head>
 
-    <meta charset=\"utf-8\">
-    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
-    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
-    <meta name=\"description\" content=\"\">
-    <meta name=\"author\" content=\"\">
 
-    <title>Films - Devschool</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href=\"css/bootstrap.min.css\" rel=\"stylesheet\">
-
-    <!-- Custom CSS -->
-    <link href=\"css/shop-item.css\" rel=\"stylesheet\">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src=\"https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js\"></script>
-    <script src=\"https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js\"></script>
-    <![endif]-->
-
-</head>
-
-<body>
-
-<!-- Navigation -->
-<nav class=\"navbar navbar-inverse navbar-fixed-top\" role=\"navigation\">
-    <div class=\"container\">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class=\"navbar-header\">
-            <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\">
-                <span class=\"sr-only\">Toggle navigation</span>
-                <span class=\"icon-bar\"></span>
-                <span class=\"icon-bar\"></span>
-                <span class=\"icon-bar\"></span>
-            </button>
-            <a class=\"navbar-brand\" href=\"index.html\">Devschool</a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">
-            <ul class=\"nav navbar-nav\">
-                <li>
-                    <a href=\"#\">Bibliothèque</a>
-                </li>
-                <li class=\"active\">
-                    <a href=\"cinema-films.html\">Cinéma</a>
-                </li>
-                <li>
-                    <a href=\"#\">Admin</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-</nav>
-
-<!-- Page Content -->
+{%  block body  %}
 <div class=\"container\">
 
     <div class=\"row\">
@@ -307,33 +184,8 @@ class __TwigTemplate_78fbc2ca2579ef256618ddd096743f2457da422c9aa88eb5e2fbef015dd
     </div>
 
 </div>
-<!-- /.container -->
 
-<div class=\"container\">
-
-    <hr>
-
-    <!-- Footer -->
-    <footer>
-        <div class=\"row\">
-            <div class=\"col-lg-12\">
-                <p>Copyright &copy; Devschool Steve 2016</p>
-            </div>
-        </div>
-    </footer>
-
-</div>
-<!-- /.container -->
-
-<!-- jQuery -->
-<script src=\"js/jquery.js\"></script>
-
-<!-- Bootstrap Core JavaScript -->
-<script src=\"js/bootstrap.min.js\"></script>
-
-</body>
-
-</html>
+{%  endblock  %}
 ", "TDCinemaBundle:Film:list.html.twig", "/Applications/MAMP/htdocs/symfony-TD/src/TD/CinemaBundle/Resources/views/Film/list.html.twig");
     }
 }
