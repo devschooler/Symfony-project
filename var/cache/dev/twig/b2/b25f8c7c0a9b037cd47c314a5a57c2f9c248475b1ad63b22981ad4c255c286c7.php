@@ -21,29 +21,29 @@ class __TwigTemplate_78fbc2ca2579ef256618ddd096743f2457da422c9aa88eb5e2fbef015dd
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_27ebf362d7d7db1dc982f18b3c358f7e4494ec2ec4fd502c29e4ae094f304140 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_27ebf362d7d7db1dc982f18b3c358f7e4494ec2ec4fd502c29e4ae094f304140->enter($__internal_27ebf362d7d7db1dc982f18b3c358f7e4494ec2ec4fd502c29e4ae094f304140_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDCinemaBundle:Film:list.html.twig"));
+        $__internal_4d9bcb25e9ba1f462b7b615a73c9149721c8a53aa8448ba5baccbaabd7bce772 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_4d9bcb25e9ba1f462b7b615a73c9149721c8a53aa8448ba5baccbaabd7bce772->enter($__internal_4d9bcb25e9ba1f462b7b615a73c9149721c8a53aa8448ba5baccbaabd7bce772_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDCinemaBundle:Film:list.html.twig"));
 
-        $__internal_f17a6b05f997aeb20f4a316c152da4227a92fc16d1fb8601073ae48d0fcba0c6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_f17a6b05f997aeb20f4a316c152da4227a92fc16d1fb8601073ae48d0fcba0c6->enter($__internal_f17a6b05f997aeb20f4a316c152da4227a92fc16d1fb8601073ae48d0fcba0c6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDCinemaBundle:Film:list.html.twig"));
+        $__internal_a28226282cb98a544a737bae800243822f411daad0aa65c76d8bf0cd4978d192 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_a28226282cb98a544a737bae800243822f411daad0aa65c76d8bf0cd4978d192->enter($__internal_a28226282cb98a544a737bae800243822f411daad0aa65c76d8bf0cd4978d192_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDCinemaBundle:Film:list.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_27ebf362d7d7db1dc982f18b3c358f7e4494ec2ec4fd502c29e4ae094f304140->leave($__internal_27ebf362d7d7db1dc982f18b3c358f7e4494ec2ec4fd502c29e4ae094f304140_prof);
+        $__internal_4d9bcb25e9ba1f462b7b615a73c9149721c8a53aa8448ba5baccbaabd7bce772->leave($__internal_4d9bcb25e9ba1f462b7b615a73c9149721c8a53aa8448ba5baccbaabd7bce772_prof);
 
         
-        $__internal_f17a6b05f997aeb20f4a316c152da4227a92fc16d1fb8601073ae48d0fcba0c6->leave($__internal_f17a6b05f997aeb20f4a316c152da4227a92fc16d1fb8601073ae48d0fcba0c6_prof);
+        $__internal_a28226282cb98a544a737bae800243822f411daad0aa65c76d8bf0cd4978d192->leave($__internal_a28226282cb98a544a737bae800243822f411daad0aa65c76d8bf0cd4978d192_prof);
 
     }
 
     // line 5
     public function block_body($context, array $blocks = array())
     {
-        $__internal_719f775a440d775c3304826948ab875d1a514ad4d821b907c0c7d2e779c3a266 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_719f775a440d775c3304826948ab875d1a514ad4d821b907c0c7d2e779c3a266->enter($__internal_719f775a440d775c3304826948ab875d1a514ad4d821b907c0c7d2e779c3a266_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_546ca81fcae1b3f40d29abf88ae67ebc98ff5b8526bc538fe70373ede0169b22 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_546ca81fcae1b3f40d29abf88ae67ebc98ff5b8526bc538fe70373ede0169b22->enter($__internal_546ca81fcae1b3f40d29abf88ae67ebc98ff5b8526bc538fe70373ede0169b22_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_07533b549261da81544858ad5efad12e7cf6446bca4ef6673387b65715a48e1b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_07533b549261da81544858ad5efad12e7cf6446bca4ef6673387b65715a48e1b->enter($__internal_07533b549261da81544858ad5efad12e7cf6446bca4ef6673387b65715a48e1b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_2d3aa6f796e6e98e626c460b5b36baac3d59cef67cf576edca273c7c4572ac26 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_2d3aa6f796e6e98e626c460b5b36baac3d59cef67cf576edca273c7c4572ac26->enter($__internal_2d3aa6f796e6e98e626c460b5b36baac3d59cef67cf576edca273c7c4572ac26_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
         echo "<div class=\"container\">
@@ -71,25 +71,28 @@ class __TwigTemplate_78fbc2ca2579ef256618ddd096743f2457da422c9aa88eb5e2fbef015dd
         foreach ($context['_seq'] as $context["_key"] => $context["films"]) {
             // line 25
             echo "
+
             <div class=\"thumbnail\">
                 <div class=\"caption-full\">
                     <h4 class=\"pull-right\">Science-Fiction</h4>
-                    <h4>  ";
-            // line 29
-            echo twig_escape_filter($this->env, $this->getAttribute($context["films"], "titre", array()), "html", null, true);
-            echo "</h4>
-                    <p> ";
+                    <h4><a href=\"";
             // line 30
+            echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("film_page", array("id" => $this->getAttribute($context["films"], "id", array()))), "html", null, true);
+            echo "\">  ";
+            echo twig_escape_filter($this->env, $this->getAttribute($context["films"], "titre", array()), "html", null, true);
+            echo " </a></h4>
+                    <p> ";
+            // line 31
             echo twig_escape_filter($this->env, $this->getAttribute($context["films"], "synopsis", array()), "html", null, true);
             echo "</p>
                 </div>
                 <div class=\"ratings\">
                     <p class=\"pull-right\">";
-            // line 33
+            // line 34
             echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["films"], "dateDeSortie", array()), "d,m,Y"), "html", null, true);
             echo "</p>
                     <p>Réalisé par : <a href=\"cinema-films-realisateur.html\">";
-            // line 34
+            // line 35
             echo twig_escape_filter($this->env, $this->getAttribute($context["films"], "realisateur", array()), "html", null, true);
             echo "</a></p>
                 </div>
@@ -100,7 +103,7 @@ class __TwigTemplate_78fbc2ca2579ef256618ddd096743f2457da422c9aa88eb5e2fbef015dd
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['films'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 39
+        // line 40
         echo "        </div>
 
     </div>
@@ -109,10 +112,10 @@ class __TwigTemplate_78fbc2ca2579ef256618ddd096743f2457da422c9aa88eb5e2fbef015dd
 
 ";
         
-        $__internal_07533b549261da81544858ad5efad12e7cf6446bca4ef6673387b65715a48e1b->leave($__internal_07533b549261da81544858ad5efad12e7cf6446bca4ef6673387b65715a48e1b_prof);
+        $__internal_2d3aa6f796e6e98e626c460b5b36baac3d59cef67cf576edca273c7c4572ac26->leave($__internal_2d3aa6f796e6e98e626c460b5b36baac3d59cef67cf576edca273c7c4572ac26_prof);
 
         
-        $__internal_719f775a440d775c3304826948ab875d1a514ad4d821b907c0c7d2e779c3a266->leave($__internal_719f775a440d775c3304826948ab875d1a514ad4d821b907c0c7d2e779c3a266_prof);
+        $__internal_546ca81fcae1b3f40d29abf88ae67ebc98ff5b8526bc538fe70373ede0169b22->leave($__internal_546ca81fcae1b3f40d29abf88ae67ebc98ff5b8526bc538fe70373ede0169b22_prof);
 
     }
 
@@ -128,7 +131,7 @@ class __TwigTemplate_78fbc2ca2579ef256618ddd096743f2457da422c9aa88eb5e2fbef015dd
 
     public function getDebugInfo()
     {
-        return array (  104 => 39,  93 => 34,  89 => 33,  83 => 30,  79 => 29,  73 => 25,  69 => 24,  49 => 6,  40 => 5,  11 => 1,);
+        return array (  107 => 40,  96 => 35,  92 => 34,  86 => 31,  80 => 30,  73 => 25,  69 => 24,  49 => 6,  40 => 5,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -166,10 +169,11 @@ class __TwigTemplate_78fbc2ca2579ef256618ddd096743f2457da422c9aa88eb5e2fbef015dd
 
             {% for films in films %}
 
+
             <div class=\"thumbnail\">
                 <div class=\"caption-full\">
                     <h4 class=\"pull-right\">Science-Fiction</h4>
-                    <h4>  {{ films.titre }}</h4>
+                    <h4><a href=\"{{ path('film_page', {'id' :films.id}) }}\">  {{ films.titre }} </a></h4>
                     <p> {{ films.synopsis }}</p>
                 </div>
                 <div class=\"ratings\">

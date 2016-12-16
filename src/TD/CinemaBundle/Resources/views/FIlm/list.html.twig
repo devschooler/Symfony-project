@@ -23,10 +23,11 @@
 
             {% for films in films %}
 
+
             <div class="thumbnail">
                 <div class="caption-full">
                     <h4 class="pull-right">Science-Fiction</h4>
-                    <h4>  {{ films.titre }}</h4>
+                    <h4><a href="{{ path('film_page', {'id' :films.id}) }}">  {{ films.titre }} </a></h4>
                     <p> {{ films.synopsis }}</p>
                 </div>
                 <div class="ratings">

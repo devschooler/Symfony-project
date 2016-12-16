@@ -1,0 +1,19 @@
+{% extends 'TDCinemaBundle::layout.html.twig' %}
+
+{% block title %}{{ livre.titre }}{% endblock %}
+
+{% block body %}
+    <h1>{{ film.titre }}</h1>
+
+    <br />
+    <span> Réalisé par {{film.realisateur  }}</span><br />
+    <br />
+    <span>Sortie le {{ film.dateDeSortie|date('d/m/Y') }}</span>
+
+    <p>{{ film.synopsis}}</p>
+
+
+
+
+    <p><a href="{{ path('films_all') }}">Retour</a></p>
+{% endblock %}

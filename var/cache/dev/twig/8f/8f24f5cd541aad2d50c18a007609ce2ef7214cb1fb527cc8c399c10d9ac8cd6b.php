@@ -10,18 +10,17 @@ class __TwigTemplate_1519f3b14e19f42b5231dc077237792ae0de7ba2de8fc8fb165bcaddf11
         $this->parent = false;
 
         $this->blocks = array(
-            'title' => array($this, 'block_title'),
             'body' => array($this, 'block_body'),
         );
     }
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_21ab37e4c1688579e826239fbe7e455bfd9ba59f8071231a0e62c4dcf98535f3 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_21ab37e4c1688579e826239fbe7e455bfd9ba59f8071231a0e62c4dcf98535f3->enter($__internal_21ab37e4c1688579e826239fbe7e455bfd9ba59f8071231a0e62c4dcf98535f3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDCinemaBundle::layout.html.twig"));
+        $__internal_7bb4a0f64c32dab9933296aa49e07a8018bf7323514e85b298f1d4ea0606cfd9 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_7bb4a0f64c32dab9933296aa49e07a8018bf7323514e85b298f1d4ea0606cfd9->enter($__internal_7bb4a0f64c32dab9933296aa49e07a8018bf7323514e85b298f1d4ea0606cfd9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDCinemaBundle::layout.html.twig"));
 
-        $__internal_92fad305c64f1e66cc59d2d28b18f221168b5288e5574e9ed26c0aeef77fe76c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_92fad305c64f1e66cc59d2d28b18f221168b5288e5574e9ed26c0aeef77fe76c->enter($__internal_92fad305c64f1e66cc59d2d28b18f221168b5288e5574e9ed26c0aeef77fe76c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDCinemaBundle::layout.html.twig"));
+        $__internal_41f896df15d932425323c020a4344d85e9ad9b7c8d6d9c4602b38b1e1a1ee26b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_41f896df15d932425323c020a4344d85e9ad9b7c8d6d9c4602b38b1e1a1ee26b->enter($__internal_41f896df15d932425323c020a4344d85e9ad9b7c8d6d9c4602b38b1e1a1ee26b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDCinemaBundle::layout.html.twig"));
 
         // line 1
         echo "<html>
@@ -33,10 +32,7 @@ class __TwigTemplate_1519f3b14e19f42b5231dc077237792ae0de7ba2de8fc8fb165bcaddf11
 
 
     <meta charset=\"UTF-8\">
-    <title>";
-        // line 10
-        $this->displayBlock('title', $context, $blocks);
-        echo "</title>
+
     <link rel=\"stylesheet\" href=\"";
         // line 11
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/style.css"), "html", null, true);
@@ -107,7 +103,7 @@ class __TwigTemplate_1519f3b14e19f42b5231dc077237792ae0de7ba2de8fc8fb165bcaddf11
         echo "</div>
 </body>
 
-div class=\"container\">
+<div class=\"container\">
 
 <hr>
 
@@ -138,45 +134,27 @@ div class=\"container\">
 
 ";
         
-        $__internal_21ab37e4c1688579e826239fbe7e455bfd9ba59f8071231a0e62c4dcf98535f3->leave($__internal_21ab37e4c1688579e826239fbe7e455bfd9ba59f8071231a0e62c4dcf98535f3_prof);
+        $__internal_7bb4a0f64c32dab9933296aa49e07a8018bf7323514e85b298f1d4ea0606cfd9->leave($__internal_7bb4a0f64c32dab9933296aa49e07a8018bf7323514e85b298f1d4ea0606cfd9_prof);
 
         
-        $__internal_92fad305c64f1e66cc59d2d28b18f221168b5288e5574e9ed26c0aeef77fe76c->leave($__internal_92fad305c64f1e66cc59d2d28b18f221168b5288e5574e9ed26c0aeef77fe76c_prof);
-
-    }
-
-    // line 10
-    public function block_title($context, array $blocks = array())
-    {
-        $__internal_e77d7ab182e8a5b50fcc0ad9c6a51a591fbbb5b649969c92d57509180e7889ec = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_e77d7ab182e8a5b50fcc0ad9c6a51a591fbbb5b649969c92d57509180e7889ec->enter($__internal_e77d7ab182e8a5b50fcc0ad9c6a51a591fbbb5b649969c92d57509180e7889ec_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
-
-        $__internal_3eddd28098f080db2aff1cdea26261bc5a7becb1013827f64cd1ced4dec3de8a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_3eddd28098f080db2aff1cdea26261bc5a7becb1013827f64cd1ced4dec3de8a->enter($__internal_3eddd28098f080db2aff1cdea26261bc5a7becb1013827f64cd1ced4dec3de8a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
-
-        echo "Devschool Cinema";
-        
-        $__internal_3eddd28098f080db2aff1cdea26261bc5a7becb1013827f64cd1ced4dec3de8a->leave($__internal_3eddd28098f080db2aff1cdea26261bc5a7becb1013827f64cd1ced4dec3de8a_prof);
-
-        
-        $__internal_e77d7ab182e8a5b50fcc0ad9c6a51a591fbbb5b649969c92d57509180e7889ec->leave($__internal_e77d7ab182e8a5b50fcc0ad9c6a51a591fbbb5b649969c92d57509180e7889ec_prof);
+        $__internal_41f896df15d932425323c020a4344d85e9ad9b7c8d6d9c4602b38b1e1a1ee26b->leave($__internal_41f896df15d932425323c020a4344d85e9ad9b7c8d6d9c4602b38b1e1a1ee26b_prof);
 
     }
 
     // line 71
     public function block_body($context, array $blocks = array())
     {
-        $__internal_b91360c139e87b3685fddd9adb0751f72333feb9c80a292c97c3badb5f6993cc = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_b91360c139e87b3685fddd9adb0751f72333feb9c80a292c97c3badb5f6993cc->enter($__internal_b91360c139e87b3685fddd9adb0751f72333feb9c80a292c97c3badb5f6993cc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_490977022bc45a2f4359798723491a0db5f555826dfa649538336b7a878a2463 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_490977022bc45a2f4359798723491a0db5f555826dfa649538336b7a878a2463->enter($__internal_490977022bc45a2f4359798723491a0db5f555826dfa649538336b7a878a2463_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_eeebc8582a8e62271ca5f7b9b5c5e59379b844bf1183f98bf042cb4f327b6e4e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_eeebc8582a8e62271ca5f7b9b5c5e59379b844bf1183f98bf042cb4f327b6e4e->enter($__internal_eeebc8582a8e62271ca5f7b9b5c5e59379b844bf1183f98bf042cb4f327b6e4e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
-
-        
-        $__internal_eeebc8582a8e62271ca5f7b9b5c5e59379b844bf1183f98bf042cb4f327b6e4e->leave($__internal_eeebc8582a8e62271ca5f7b9b5c5e59379b844bf1183f98bf042cb4f327b6e4e_prof);
+        $__internal_6af1931009826b245ed6c1fcb47f1014d14cd7ed0c3e4d92b3917d1f215a2d3e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_6af1931009826b245ed6c1fcb47f1014d14cd7ed0c3e4d92b3917d1f215a2d3e->enter($__internal_6af1931009826b245ed6c1fcb47f1014d14cd7ed0c3e4d92b3917d1f215a2d3e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         
-        $__internal_b91360c139e87b3685fddd9adb0751f72333feb9c80a292c97c3badb5f6993cc->leave($__internal_b91360c139e87b3685fddd9adb0751f72333feb9c80a292c97c3badb5f6993cc_prof);
+        $__internal_6af1931009826b245ed6c1fcb47f1014d14cd7ed0c3e4d92b3917d1f215a2d3e->leave($__internal_6af1931009826b245ed6c1fcb47f1014d14cd7ed0c3e4d92b3917d1f215a2d3e_prof);
+
+        
+        $__internal_490977022bc45a2f4359798723491a0db5f555826dfa649538336b7a878a2463->leave($__internal_490977022bc45a2f4359798723491a0db5f555826dfa649538336b7a878a2463_prof);
 
     }
 
@@ -192,7 +170,7 @@ div class=\"container\">
 
     public function getDebugInfo()
     {
-        return array (  167 => 71,  149 => 10,  107 => 72,  105 => 71,  42 => 11,  38 => 10,  27 => 1,);
+        return array (  145 => 71,  103 => 72,  101 => 71,  38 => 11,  26 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -214,7 +192,7 @@ div class=\"container\">
 
 
     <meta charset=\"UTF-8\">
-    <title>{% block title %}Devschool Cinema{% endblock %}</title>
+
     <link rel=\"stylesheet\" href=\"{{ asset('css/style.css') }}\" />
 
     <head>
@@ -279,7 +257,7 @@ div class=\"container\">
 </div>
 </body>
 
-div class=\"container\">
+<div class=\"container\">
 
 <hr>
 

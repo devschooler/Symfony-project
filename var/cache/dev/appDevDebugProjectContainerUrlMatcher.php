@@ -124,14 +124,14 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
         }
 
         if (0 === strpos($pathinfo, '/Film')) {
-            // td_cinema_default_list
+            // films_all
             if ($pathinfo === '/Film') {
-                return array (  '_controller' => 'TD\\CinemaBundle\\Controller\\DefaultController::listAction',  '_route' => 'td_cinema_default_list',);
+                return array (  '_controller' => 'TD\\CinemaBundle\\Controller\\DefaultController::listAction',  '_route' => 'films_all',);
             }
 
-            // td_cinema_default_show
+            // film_page
             if (preg_match('#^/Film/(?P<id>\\d+)$#s', $pathinfo, $matches)) {
-                return $this->mergeDefaults(array_replace($matches, array('_route' => 'td_cinema_default_show')), array (  '_controller' => 'TD\\CinemaBundle\\Controller\\DefaultController::showAction',));
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'film_page')), array (  '_controller' => 'TD\\CinemaBundle\\Controller\\DefaultController::showAction',));
             }
 
         }
