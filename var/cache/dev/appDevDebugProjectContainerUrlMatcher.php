@@ -105,13 +105,25 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         }
 
-        // td_admin_default_index
-        if (rtrim($pathinfo, '/') === '') {
-            if (substr($pathinfo, -1) !== '/') {
-                return $this->redirect($pathinfo.'/', 'td_admin_default_index');
+        if (0 === strpos($pathinfo, '/admin')) {
+            if (0 === strpos($pathinfo, '/admin/genres')) {
+                // admin_ajout
+                if ($pathinfo === '/admin/genres/ajout') {
+                    return array (  '_controller' => 'TD\\AdminBundle\\Controller\\AdminGenreController::addAction',  '_route' => 'admin_ajout',);
+                }
+
+                // admin_genre_list
+                if ($pathinfo === '/admin/genres/liste') {
+                    return array (  '_controller' => 'TD\\AdminBundle\\Controller\\AdminGenreController::listAction',  '_route' => 'admin_genre_list',);
+                }
+
             }
 
-            return array (  '_controller' => 'TD\\AdminBundle\\Controller\\DefaultController::indexAction',  '_route' => 'td_admin_default_index',);
+            // td_admin_default_index
+            if ($pathinfo === '/admin') {
+                return array (  '_controller' => 'TD\\AdminBundle\\Controller\\DefaultController::indexAction',  '_route' => 'td_admin_default_index',);
+            }
+
         }
 
         // td_cinema_default_index
