@@ -15,11 +15,11 @@ class __TwigTemplate_595e28db135d3e296483da6c81e770088f763c954db73db418c899dbf81
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_ab70b86c12e9ff90386b6938b9a193d4e9d928a100d8fcc278f40310fd3474de = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_ab70b86c12e9ff90386b6938b9a193d4e9d928a100d8fcc278f40310fd3474de->enter($__internal_ab70b86c12e9ff90386b6938b9a193d4e9d928a100d8fcc278f40310fd3474de_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDAdminBundle:Genre:list.html.twig"));
+        $__internal_96284f929926a0c5d66a9dfe21babe8ac0a3b7f76bde602ddd66b2fe9e56f7c1 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_96284f929926a0c5d66a9dfe21babe8ac0a3b7f76bde602ddd66b2fe9e56f7c1->enter($__internal_96284f929926a0c5d66a9dfe21babe8ac0a3b7f76bde602ddd66b2fe9e56f7c1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDAdminBundle:Genre:list.html.twig"));
 
-        $__internal_0953dd5b364123de961819bd3f2fb7818907fb840dcb47b9d1ff06c1d965590c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_0953dd5b364123de961819bd3f2fb7818907fb840dcb47b9d1ff06c1d965590c->enter($__internal_0953dd5b364123de961819bd3f2fb7818907fb840dcb47b9d1ff06c1d965590c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDAdminBundle:Genre:list.html.twig"));
+        $__internal_61f3f82763f54d01a1c59a68716dee699fe94a96dfa395dface9679c9dbd349b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_61f3f82763f54d01a1c59a68716dee699fe94a96dfa395dface9679c9dbd349b->enter($__internal_61f3f82763f54d01a1c59a68716dee699fe94a96dfa395dface9679c9dbd349b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDAdminBundle:Genre:list.html.twig"));
 
         // line 1
         echo "<h1>Liste des genres :</h1>
@@ -33,22 +33,27 @@ class __TwigTemplate_595e28db135d3e296483da6c81e770088f763c954db73db418c899dbf81
             echo "        <li>";
             echo twig_escape_filter($this->env, $this->getAttribute($context["genre"], "nom", array()), "html", null, true);
             echo "</li>
+
+            <li><a href=\"";
+            // line 6
+            echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("admin_genre_modif", array("id" => $this->getAttribute($context["genre"], "id", array()))), "html", null, true);
+            echo "\"> Modifier</a></li>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['genre'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 6
+        // line 8
         echo "</ul>
 <a href=\"";
-        // line 7
+        // line 9
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("admin_ajout");
         echo "\">Ajouter</a>";
         
-        $__internal_ab70b86c12e9ff90386b6938b9a193d4e9d928a100d8fcc278f40310fd3474de->leave($__internal_ab70b86c12e9ff90386b6938b9a193d4e9d928a100d8fcc278f40310fd3474de_prof);
+        $__internal_96284f929926a0c5d66a9dfe21babe8ac0a3b7f76bde602ddd66b2fe9e56f7c1->leave($__internal_96284f929926a0c5d66a9dfe21babe8ac0a3b7f76bde602ddd66b2fe9e56f7c1_prof);
 
         
-        $__internal_0953dd5b364123de961819bd3f2fb7818907fb840dcb47b9d1ff06c1d965590c->leave($__internal_0953dd5b364123de961819bd3f2fb7818907fb840dcb47b9d1ff06c1d965590c_prof);
+        $__internal_61f3f82763f54d01a1c59a68716dee699fe94a96dfa395dface9679c9dbd349b->leave($__internal_61f3f82763f54d01a1c59a68716dee699fe94a96dfa395dface9679c9dbd349b_prof);
 
     }
 
@@ -64,7 +69,7 @@ class __TwigTemplate_595e28db135d3e296483da6c81e770088f763c954db73db418c899dbf81
 
     public function getDebugInfo()
     {
-        return array (  45 => 7,  42 => 6,  33 => 4,  29 => 3,  25 => 1,);
+        return array (  50 => 9,  47 => 8,  39 => 6,  33 => 4,  29 => 3,  25 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -81,6 +86,8 @@ class __TwigTemplate_595e28db135d3e296483da6c81e770088f763c954db73db418c899dbf81
 <ul>
     {% for genre in genres %}
         <li>{{ genre.nom }}</li>
+
+            <li><a href=\"{{  path('admin_genre_modif',{'id': genre.id} ) }}\"> Modifier</a></li>
     {% endfor %}
 </ul>
 <a href=\"{{ path('admin_ajout') }}\">Ajouter</a>", "TDAdminBundle:Genre:list.html.twig", "/Applications/MAMP/htdocs/symfony-TD/src/TD/AdminBundle/Resources/views/Genre/list.html.twig");

@@ -2,6 +2,8 @@
 <ul>
     {% for genre in genres %}
         <li>{{ genre.nom }}</li>
+
+            <li><a href="{{  path('admin_genre_modif',{'id': genre.id} ) }}"> Modifier</a></li>
     {% endfor %}
 </ul>
 <a href="{{ path('admin_ajout') }}">Ajouter</a>
