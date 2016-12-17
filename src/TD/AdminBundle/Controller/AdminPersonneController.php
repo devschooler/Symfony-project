@@ -43,7 +43,7 @@ class AdminPersonneController extends Controller
 
             $em->flush(); //écriture en base de toutes les données persistées
 
-            return $this->redirectToRoute('admin_genre_list'); //puis on redirige l'utilisateur vers la page des genres
+            return $this->redirectToRoute('admin_personne_list'); //puis on redirige l'utilisateur vers la page des genres
         }
         return $this->render(
             'TDAdminBundle:Personne:form.html.twig',
