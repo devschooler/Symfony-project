@@ -122,6 +122,11 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
                     return $this->mergeDefaults(array_replace($matches, array('_route' => 'admin_genre_modif')), array (  '_controller' => 'TD\\AdminBundle\\Controller\\AdminGenreController::editAction',));
                 }
 
+                // admin_genre_supprimer
+                if (0 === strpos($pathinfo, '/admin/genres/supprimer') && preg_match('#^/admin/genres/supprimer/(?P<id>\\d+)$#s', $pathinfo, $matches)) {
+                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'admin_genre_supprimer')), array (  '_controller' => 'TD\\AdminBundle\\Controller\\AdminGenreController::deleteAction',));
+                }
+
             }
 
             // td_admin_default_index
