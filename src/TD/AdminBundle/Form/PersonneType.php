@@ -21,6 +21,7 @@ class PersonneType extends AbstractType
         $builder
             ->add('nom')
             ->add('prenom')
+            ->add('biographie')
             ->add('date_de_naissance' , DateType::class, array('years' => range('1900','2017')))
             ->add('save', SubmitType::class, array('label' => 'Enregistrer'))
         ;

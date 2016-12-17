@@ -3,34 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a3a5608e-a221-4bfe-83aa-f2275c3454f7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TD/AdminBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/TD/AdminBundle/Controller/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/Default/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/layout.html.twig" afterPath="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/layout.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/personne/list.html.twig" afterPath="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/personne/list.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TD/CinemaBundle/Resources/views/FIlm/list.html.twig" afterPath="$PROJECT_DIR$/src/TD/CinemaBundle/Resources/views/FIlm/list.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TD/CinemaBundle/Resources/views/layout.html.twig" afterPath="$PROJECT_DIR$/src/TD/CinemaBundle/Resources/views/layout.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/1/Q/DO4bUiUj8PtGFSO0fKpM" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/1/Q/DO4bUiUj8PtGFSO0fKpM" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/7/V/yY4+uspK9LAst0Fqw-PA" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/7/V/yY4+uspK9LAst0Fqw-PA" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/9/2/2Dy6SC4IAF3ihcLA16ZU" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/9/2/2Dy6SC4IAF3ihcLA16ZU" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/B/0/-rD9ehNxnR2wtC473MIA" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/B/0/-rD9ehNxnR2wtC473MIA" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/B/O/03YupmJRq+5l8-5-UJ8O" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/B/O/03YupmJRq+5l8-5-UJ8O" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/E/J/-iX4doTqtmA2eS-gHBds" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/E/J/-iX4doTqtmA2eS-gHBds" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/H/I/vng6S76wlRbdJNZhzc8r" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/H/I/vng6S76wlRbdJNZhzc8r" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/I/Y/DWgb4N2WE9LPwF2bYzXd" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/I/Y/DWgb4N2WE9LPwF2bYzXd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/P/V/ZmnwEHgr6aOl1oat11yG" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/P/V/ZmnwEHgr6aOl1oat11yG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/T/G/4tYv6ADY+CIkEfimPEhP" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/T/G/4tYv6ADY+CIkEfimPEhP" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/U/1/6dIZBIgkVl6F4mQCshlS" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/U/1/6dIZBIgkVl6F4mQCshlS" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/V/W/EEwFcVa0m-JVNA2pnWjR" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/V/W/EEwFcVa0m-JVNA2pnWjR" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/V/Z/uzn2ksDrcLZMN+fLw-ii" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/V/Z/uzn2ksDrcLZMN+fLw-ii" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/W/6/QCGD0ISnZc2hT1E5akd9" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/W/6/QCGD0ISnZc2hT1E5akd9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/X/6/a8MTbs8TIylMc5l1vOnJ" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/X/6/a8MTbs8TIylMc5l1vOnJ" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/Y/M/-sRYxbNZfG+z8e3rmCHW" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/Y/M/-sRYxbNZfG+z8e3rmCHW" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TD/AdminBundle/Form/PersonneType.php" afterPath="$PROJECT_DIR$/src/TD/AdminBundle/Form/PersonneType.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/03/039e00e55b3e04a70a82d04189d5c8625a81e981b37d41120921991311cd972e.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/03/039e00e55b3e04a70a82d04189d5c8625a81e981b37d41120921991311cd972e.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/23/23fb81fea63af7fbb454b33c35a74a615f302850091267c685bcb5b53ae34865.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/23/23fb81fea63af7fbb454b33c35a74a615f302850091267c685bcb5b53ae34865.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/30/30acd376f17d497bea4ee7baeacc0cad96baaf4f8bf23704d1b02d0d6386661b.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/30/30acd376f17d497bea4ee7baeacc0cad96baaf4f8bf23704d1b02d0d6386661b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/b2/b25f8c7c0a9b037cd47c314a5a57c2f9c248475b1ad63b22981ad4c255c286c7.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/b2/b25f8c7c0a9b037cd47c314a5a57c2f9c248475b1ad63b22981ad4c255c286c7.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/bb/bb09262239630e09161eb0647d08cfc2bbed9872022b9cee15e664fa28fa39bc.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/bb/bb09262239630e09161eb0647d08cfc2bbed9872022b9cee15e664fa28fa39bc.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/logs/dev.log" afterPath="$PROJECT_DIR$/var/logs/dev.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/sessions/dev/sess_cq0fnib4prukbmketlis6bur63" afterPath="$PROJECT_DIR$/var/sessions/dev/sess_cq0fnib4prukbmketlis6bur63" />
     </list>
@@ -65,21 +39,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TD/CinemaBundle/Resources/views/FIlm/list.html.twig">
+      <file leaf-file-name="layout.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/layout.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="318">
+              <caret line="29" column="70" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/layout.html.twig">
+      <file leaf-file-name="Personne.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TD/CinemaBundle/Entity/Personne.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="35" selection-end-column="46" />
+            <state relative-caret-position="318">
+              <caret line="114" column="6" selection-start-line="114" selection-start-column="6" selection-end-line="114" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonneType.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Form/PersonneType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -128,11 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="layout.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TD/CinemaBundle/Resources/views/layout.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+            <state relative-caret-position="150">
+              <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -143,16 +127,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TD/CinemaBundle/Resources/views/FIlm/show.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -174,7 +148,6 @@
         <option value="$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminGenreController.php" />
         <option value="$PROJECT_DIR$/src/TD/CinemaBundle/Entity/Film.php" />
         <option value="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/personne/form.html.twig" />
-        <option value="$PROJECT_DIR$/src/TD/AdminBundle/Form/PersonneType.php" />
         <option value="$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminPersonneController.php" />
         <option value="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/genre/list.html.twig" />
         <option value="$PROJECT_DIR$/src/TD/CinemaBundle/Resources/views/Realisateurs/show.html.twig" />
@@ -188,6 +161,7 @@
         <option value="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/TD/AdminBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/TD/CinemaBundle/Resources/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/TD/AdminBundle/Form/PersonneType.php" />
       </list>
     </option>
   </component>
@@ -621,164 +595,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="symfony-TD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="symfony-TD" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TD" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AdminBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="personne" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="symfony-TD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="symfony-TD" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TD" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AdminBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="genre" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="symfony-TD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="symfony-TD" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TD" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AdminBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="symfony-TD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="symfony-TD" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TD" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AdminBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="symfony-TD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="symfony-TD" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TD" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AdminBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Form" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -884,6 +700,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
@@ -943,7 +764,7 @@
       <option name="presentableId" value="Default" />
       <updated>1481554065260</updated>
       <workItem from="1481554066436" duration="33668000" />
-      <workItem from="1481939228685" duration="15095000" />
+      <workItem from="1481939228685" duration="15401000" />
     </task>
     <task id="LOCAL-00001" summary="lama">
       <created>1481555122086</created>
@@ -956,7 +777,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48763000" />
+    <option name="totallyTimeSpent" value="49069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-25" y="22" width="1029" height="1127" extended-state="0" />
@@ -1145,17 +966,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Form/PersonneType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#6#88#0#PHP" expanded="false" />
-            <element signature="e#123#163#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/genre/list.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1198,14 +1008,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TD/CinemaBundle/Entity/Personne.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="114" column="6" selection-start-line="114" selection-start-column="6" selection-end-line="114" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TD/CinemaBundle/Resources/views/personne/list.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1234,14 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="35" selection-end-column="46" />
           <folding />
         </state>
       </provider>
@@ -1293,8 +1087,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TD/CinemaBundle/Resources/views/layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+        <state relative-caret-position="150">
+          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="29" column="70" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TD/CinemaBundle/Entity/Personne.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="114" column="6" selection-start-line="114" selection-start-column="6" selection-end-line="114" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Form/PersonneType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
           <folding />
         </state>
       </provider>
