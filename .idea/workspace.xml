@@ -2,33 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3a5608e-a221-4bfe-83aa-f2275c3454f7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminFilmController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TD/AdminBundle/Form/FilmType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/film/form.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/film/list.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/+/Q/WURvHQLYz-o4FQrSucXD" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/+/Q/WURvHQLYz-o4FQrSucXD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/8/O/Ww4Mxc1tJDCxfxWHXEAm" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/8/O/Ww4Mxc1tJDCxfxWHXEAm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/A/W/MCekCWlpQwpHfJSh-TCa" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/A/W/MCekCWlpQwpHfJSh-TCa" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/C/T/ZGZhcUGrhRlVtAkkRj0g" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/C/T/ZGZhcUGrhRlVtAkkRj0g" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/G/K/mimlFrgmBW1VWqBAIgH1" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/G/K/mimlFrgmBW1VWqBAIgH1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/G/W/Bcj1mbkXUsrrMAGolZWX" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/G/W/Bcj1mbkXUsrrMAGolZWX" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/X/I/s5dZjjKD2hwZ-0HiAVEO" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/X/I/s5dZjjKD2hwZ-0HiAVEO" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminFilmController.php" afterPath="$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminFilmController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminPersonneController.php" afterPath="$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminPersonneController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/film/form.html.twig" afterPath="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/film/form.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/film/list.html.twig" afterPath="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/film/list.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TD/CinemaBundle/Entity/Film.php" afterPath="$PROJECT_DIR$/src/TD/CinemaBundle/Entity/Film.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TD/CinemaBundle/Resources/views/FIlm/list.html.twig" afterPath="$PROJECT_DIR$/src/TD/CinemaBundle/Resources/views/FIlm/list.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/A/D/jlx0ZBHLnsCiFM6sWNsJ" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/A/D/jlx0ZBHLnsCiFM6sWNsJ" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/C/+/yTU1rZwZvwXBBRHkbYkC" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/C/+/yTU1rZwZvwXBBRHkbYkC" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/C/Q/oyRY0-I2bPfF38+MOF+J" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/C/Q/oyRY0-I2bPfF38+MOF+J" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/D/C/sFPO2PYQ7YSA+JMPGwHx" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/D/C/sFPO2PYQ7YSA+JMPGwHx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/D/C/vKVfhdSEa-lgUwOnVEap" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/D/C/vKVfhdSEa-lgUwOnVEap" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/D/V/pkMKWEd9+ojJuxBnHk4o" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/D/V/pkMKWEd9+ojJuxBnHk4o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/F/D/bQTPoa1Ni2sN4BU4X62k" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/F/D/bQTPoa1Ni2sN4BU4X62k" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/F/O/4PqBRVKWRf7pJGxSHPvK" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/F/O/4PqBRVKWRf7pJGxSHPvK" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/H/3/uLFtbIXp2yfFGM71zKuQ" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/H/3/uLFtbIXp2yfFGM71zKuQ" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/I/4/X9spsOl8hj4IU6JGFlz1" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/I/4/X9spsOl8hj4IU6JGFlz1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/M/3/wYHnia6Pefa4QyzTCop0" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/M/3/wYHnia6Pefa4QyzTCop0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/J/I/-wYOC8d-nSFFn1cF1U8S" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/J/I/-wYOC8d-nSFFn1cF1U8S" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/L/0/bHt7OO0TFjejGFbfAZbN" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/L/0/bHt7OO0TFjejGFbfAZbN" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/M/+/Wbfe4pOnGfgVGvulIYJW" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/M/+/Wbfe4pOnGfgVGvulIYJW" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/M/I/AqTI9LC+mDOtE+TOu9PZ" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/M/I/AqTI9LC+mDOtE+TOu9PZ" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/M/N/ZGbvcxDrBtRh2Guvz9LK" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/M/N/ZGbvcxDrBtRh2Guvz9LK" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/M/Z/9KjBo9lHqpRd7VsSFchi" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/M/Z/9KjBo9lHqpRd7VsSFchi" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/O/2/+yZqGOzJDf6Kb2ZCq4hJ" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/O/2/+yZqGOzJDf6Kb2ZCq4hJ" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/O/Y/SCLWs4A1mujKwWMhTHr8" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/O/Y/SCLWs4A1mujKwWMhTHr8" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/S/G/+iIRKxJSDPRkGwYDT1f0" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/S/G/+iIRKxJSDPRkGwYDT1f0" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/T/W/EonjU2ngG0rerki4f6HX" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/T/W/EonjU2ngG0rerki4f6HX" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/U/E/uk03ojXaLF3VKs3lEcVj" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/U/E/uk03ojXaLF3VKs3lEcVj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/X/V/EGwOwkxg7gV-lmZHPhVt" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/X/V/EGwOwkxg7gV-lmZHPhVt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/85/8542db0765b6ff96caf96d08b80c4e45f1cf7524757478f66a4ee80ec476d806.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/85/8542db0765b6ff96caf96d08b80c4e45f1cf7524757478f66a4ee80ec476d806.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/b2/b25f8c7c0a9b037cd47c314a5a57c2f9c248475b1ad63b22981ad4c255c286c7.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/b2/b25f8c7c0a9b037cd47c314a5a57c2f9c248475b1ad63b22981ad4c255c286c7.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/logs/dev.log" afterPath="$PROJECT_DIR$/var/logs/dev.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/sessions/dev/sess_cq0fnib4prukbmketlis6bur63" afterPath="$PROJECT_DIR$/var/sessions/dev/sess_cq0fnib4prukbmketlis6bur63" />
     </list>
@@ -51,23 +64,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Controller/DefaultController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-              <folding>
-                <element signature="e#45#102#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="form.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/film/form.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -76,8 +77,8 @@
       <file leaf-file-name="AdminFilmController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminFilmController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="708">
+              <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
                 <element signature="e#130#162#0#PHP" expanded="true" />
@@ -89,8 +90,48 @@
       <file leaf-file-name="list.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TD/CinemaBundle/Resources/views/FIlm/list.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="345">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Film.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TD/CinemaBundle/Entity/Film.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="723">
+              <caret line="190" column="5" selection-start-line="190" selection-start-column="5" selection-end-line="190" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TD/CinemaBundle/Resources/views/FIlm/show.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Personne.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TD/CinemaBundle/Entity/Personne.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="114" column="6" selection-start-line="114" selection-start-column="6" selection-end-line="114" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Genre.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TD/CinemaBundle/Entity/Genre.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="657">
+              <caret line="78" column="15" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -99,8 +140,8 @@
       <file leaf-file-name="list.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/film/list.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="195">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -109,7 +150,7 @@
       <file leaf-file-name="AdminGenreController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminGenreController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
+            <state relative-caret-position="480">
               <caret line="53" column="19" selection-start-line="46" selection-start-column="0" selection-end-line="59" selection-end-column="5" />
               <folding>
                 <element signature="e#47#80#0#PHP" expanded="true" />
@@ -121,45 +162,11 @@
       <file leaf-file-name="AdminPersonneController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminPersonneController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="48" />
+            <state relative-caret-position="153">
+              <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
                 <element signature="e#131#167#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/personne/list.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FilmType.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Form/FilmType.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-              <folding>
-                <element signature="e#123#163#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonneType.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Form/PersonneType.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="10" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="1" />
-              <folding>
-                <element signature="e#123#163#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -180,23 +187,24 @@
         <option value="$PROJECT_DIR$/src/TD/AdminBundle/Form/GenreType.php" />
         <option value="$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminGenreController.php" />
         <option value="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/personne/form.html.twig" />
-        <option value="$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminPersonneController.php" />
         <option value="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/genre/list.html.twig" />
         <option value="$PROJECT_DIR$/src/TD/CinemaBundle/Resources/views/Realisateurs/show.html.twig" />
         <option value="$PROJECT_DIR$/src/TD/CinemaBundle/Resources/views/Realisateurs/lsit.html.twig" />
         <option value="$PROJECT_DIR$/src/TD/CinemaBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/TD/CinemaBundle/Entity/Personne.php" />
         <option value="$PROJECT_DIR$/src/TD/CinemaBundle/Resources/views/personne/list.html.twig" />
-        <option value="$PROJECT_DIR$/src/TD/CinemaBundle/Resources/views/FIlm/list.html.twig" />
         <option value="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/personne/list.html.twig" />
         <option value="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/TD/AdminBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/TD/CinemaBundle/Resources/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/src/TD/AdminBundle/Form/PersonneType.php" />
-        <option value="$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminFilmController.php" />
-        <option value="$PROJECT_DIR$/src/TD/CinemaBundle/Entity/Film.php" />
         <option value="$PROJECT_DIR$/src/TD/AdminBundle/Form/FilmType.php" />
+        <option value="$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminPersonneController.php" />
+        <option value="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/film/form.html.twig" />
+        <option value="$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminFilmController.php" />
+        <option value="$PROJECT_DIR$/src/TD/CinemaBundle/Resources/views/FIlm/list.html.twig" />
+        <option value="$PROJECT_DIR$/src/TD/CinemaBundle/Entity/Film.php" />
         <option value="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/film/list.html.twig" />
       </list>
     </option>
@@ -209,9 +217,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="16" />
+    <option name="x" value="9" />
     <option name="y" value="22" />
-    <option name="width" value="1029" />
+    <option name="width" value="1134" />
     <option name="height" value="1127" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -812,7 +820,7 @@
       <option name="presentableId" value="Default" />
       <updated>1481554065260</updated>
       <workItem from="1481554066436" duration="33668000" />
-      <workItem from="1481939228685" duration="16692000" />
+      <workItem from="1481939228685" duration="18991000" />
     </task>
     <task id="LOCAL-00001" summary="lama">
       <created>1481555122086</created>
@@ -825,13 +833,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50360000" />
+    <option name="totallyTimeSpent" value="52659000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="16" y="22" width="1029" height="1127" extended-state="0" />
+    <frame x="9" y="22" width="1134" height="1127" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31205675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2820513" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -988,22 +996,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TD/CinemaBundle/Entity/Genre.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="91" column="7" selection-start-line="91" selection-start-column="7" selection-end-line="91" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/genre/form.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TD/CinemaBundle/Resources/views/personne/show.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1034,14 +1026,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TD/CinemaBundle/Resources/views/FIlm/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1078,30 +1062,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TD/CinemaBundle/Entity/Personne.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="114" column="6" selection-start-line="114" selection-start-column="6" selection-end-line="114" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/genre/list.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TD/CinemaBundle/Entity/Film.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="145" column="5" selection-start-line="145" selection-start-column="5" selection-end-line="145" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TD/CinemaBundle/Repository/FilmRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1128,50 +1088,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminPersonneController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="48" />
-          <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <element signature="e#131#167#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminGenreController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="53" column="19" selection-start-line="46" selection-start-column="0" selection-end-line="59" selection-end-column="5" />
-          <folding>
-            <element signature="e#47#80#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminFilmController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <element signature="e#130#162#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/personne/list.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TD/CinemaBundle/Resources/views/FIlm/list.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1196,18 +1116,106 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/genre/form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/genre/list.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminPersonneController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="true" />
+            <element signature="e#131#167#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminGenreController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="53" column="19" selection-start-line="46" selection-start-column="0" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="e#47#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TD/CinemaBundle/Entity/Genre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="78" column="15" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TD/CinemaBundle/Entity/Personne.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="114" column="6" selection-start-line="114" selection-start-column="6" selection-end-line="114" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminFilmController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="true" />
+            <element signature="e#130#162#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TD/CinemaBundle/Resources/views/FIlm/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TD/CinemaBundle/Resources/views/FIlm/list.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TD/CinemaBundle/Entity/Film.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="190" column="5" selection-start-line="190" selection-start-column="5" selection-end-line="190" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/film/form.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/film/list.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="195">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -4,8 +4,10 @@
         <li>{{ film.titre }}</li> </br>
             <li>{{ film.synopsis }}</li>
   <li>{{ film.dateDeSortie|date('d,m,Y') }}</li> </br>
-            <li>{{ film.realisateur }}</li>
+            <li> {{ film.personne.prenom }} {{ film.personne.nom }}</li>
 
 
     {% endfor %}
+
+    <a href="{{ path('admin_ajout') }}">Ajouter</a>
 </ul>

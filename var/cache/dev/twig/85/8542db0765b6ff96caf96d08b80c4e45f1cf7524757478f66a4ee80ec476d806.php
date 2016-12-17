@@ -15,11 +15,11 @@ class __TwigTemplate_f292beee0165718b0a5f505806f4f79556fe850bbaa5f1d8dc4efcaeb7a
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_0fbb36134c6244a574ee385a00e385d298de4c19fc31acf851ef05e995865fd4 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_0fbb36134c6244a574ee385a00e385d298de4c19fc31acf851ef05e995865fd4->enter($__internal_0fbb36134c6244a574ee385a00e385d298de4c19fc31acf851ef05e995865fd4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDAdminBundle:Film:list.html.twig"));
+        $__internal_3b63532ab7c2e72834835ec9d3262d303b571149efff602a8df47e7cbe64da21 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_3b63532ab7c2e72834835ec9d3262d303b571149efff602a8df47e7cbe64da21->enter($__internal_3b63532ab7c2e72834835ec9d3262d303b571149efff602a8df47e7cbe64da21_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDAdminBundle:Film:list.html.twig"));
 
-        $__internal_2ad31f4854c829a634345377e5c72f0158fc5426050521ae3a15616d276bc914 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_2ad31f4854c829a634345377e5c72f0158fc5426050521ae3a15616d276bc914->enter($__internal_2ad31f4854c829a634345377e5c72f0158fc5426050521ae3a15616d276bc914_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDAdminBundle:Film:list.html.twig"));
+        $__internal_8ad368646d58ad744f865ce1683a5bfd360ef3229b9e8427a4fbc8b5c2397e55 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_8ad368646d58ad744f865ce1683a5bfd360ef3229b9e8427a4fbc8b5c2397e55->enter($__internal_8ad368646d58ad744f865ce1683a5bfd360ef3229b9e8427a4fbc8b5c2397e55_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDAdminBundle:Film:list.html.twig"));
 
         // line 1
         echo "<h1>Liste des films :</h1>
@@ -41,9 +41,11 @@ class __TwigTemplate_f292beee0165718b0a5f505806f4f79556fe850bbaa5f1d8dc4efcaeb7a
             // line 6
             echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["film"], "dateDeSortie", array()), "d,m,Y"), "html", null, true);
             echo "</li> </br>
-            <li>";
+            <li> ";
             // line 7
-            echo twig_escape_filter($this->env, $this->getAttribute($context["film"], "realisateur", array()), "html", null, true);
+            echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($context["film"], "personne", array()), "prenom", array()), "html", null, true);
+            echo " ";
+            echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($context["film"], "personne", array()), "nom", array()), "html", null, true);
             echo "</li>
 
 
@@ -53,13 +55,18 @@ class __TwigTemplate_f292beee0165718b0a5f505806f4f79556fe850bbaa5f1d8dc4efcaeb7a
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['film'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
         // line 11
-        echo "</ul>
+        echo "
+    <a href=\"";
+        // line 12
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("admin_ajout");
+        echo "\">Ajouter</a>
+</ul>
 ";
         
-        $__internal_0fbb36134c6244a574ee385a00e385d298de4c19fc31acf851ef05e995865fd4->leave($__internal_0fbb36134c6244a574ee385a00e385d298de4c19fc31acf851ef05e995865fd4_prof);
+        $__internal_3b63532ab7c2e72834835ec9d3262d303b571149efff602a8df47e7cbe64da21->leave($__internal_3b63532ab7c2e72834835ec9d3262d303b571149efff602a8df47e7cbe64da21_prof);
 
         
-        $__internal_2ad31f4854c829a634345377e5c72f0158fc5426050521ae3a15616d276bc914->leave($__internal_2ad31f4854c829a634345377e5c72f0158fc5426050521ae3a15616d276bc914_prof);
+        $__internal_8ad368646d58ad744f865ce1683a5bfd360ef3229b9e8427a4fbc8b5c2397e55->leave($__internal_8ad368646d58ad744f865ce1683a5bfd360ef3229b9e8427a4fbc8b5c2397e55_prof);
 
     }
 
@@ -75,7 +82,7 @@ class __TwigTemplate_f292beee0165718b0a5f505806f4f79556fe850bbaa5f1d8dc4efcaeb7a
 
     public function getDebugInfo()
     {
-        return array (  56 => 11,  46 => 7,  42 => 6,  38 => 5,  33 => 4,  29 => 3,  25 => 1,);
+        return array (  61 => 12,  58 => 11,  46 => 7,  42 => 6,  38 => 5,  33 => 4,  29 => 3,  25 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -94,10 +101,12 @@ class __TwigTemplate_f292beee0165718b0a5f505806f4f79556fe850bbaa5f1d8dc4efcaeb7a
         <li>{{ film.titre }}</li> </br>
             <li>{{ film.synopsis }}</li>
   <li>{{ film.dateDeSortie|date('d,m,Y') }}</li> </br>
-            <li>{{ film.realisateur }}</li>
+            <li> {{ film.personne.prenom }} {{ film.personne.nom }}</li>
 
 
     {% endfor %}
+
+    <a href=\"{{ path('admin_ajout') }}\">Ajouter</a>
 </ul>
 ", "TDAdminBundle:Film:list.html.twig", "/Applications/MAMP/htdocs/symfony-TD/src/TD/AdminBundle/Resources/views/Film/list.html.twig");
     }

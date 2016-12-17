@@ -37,7 +37,33 @@ class AdminFilmController extends Controller
         );
     }
 
+    /**
+     * @Route("/ajout" , name="admin_ajoutfilm")
+     */
+    public function addAction(Request $request)
+    {
+
+        $film = new Film(); //on crée un nou veau Genre vide
+        $form = $this->createForm(FilmType::class, $film); //on le lie à un formulaire de type GenreType
+
+        $form->handleRequest($request); //on lie le formulaire à la requête HTTP
+
+        if ($form->isSubmitted() && $form->isValid()) { //si le formulaire a bien été soumis et qu'il est valide
+            $film = $form->getData(); //on crée un objet Genre avec les valeurs du formulaire soumis
+
+            $em = $this->getDoctrine()->getManager(); //on récupère le gestionnaire d'entités de Doctrine
+
+            $em->persist($personne); //on s'en sert pour enregistrer le genre (mais pas encore dans la base de données)
+
+            $em->flush(); //écriture en base de toutes les données persistées
+
+            return $this->redirectToRoute('admin_personne_list'); //puis on redirige l'utilisateur vers la page des genres
+        }
+        return $this->render(
+            'TDAdminBundle:film:form.html.twig',
+            ['form' => $form->createView()]
+        );
 
 
-
+    }
 }

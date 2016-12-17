@@ -106,9 +106,17 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
         }
 
         if (0 === strpos($pathinfo, '/admin')) {
-            // admin_film_list
-            if ($pathinfo === '/admin/films/liste') {
-                return array (  '_controller' => 'TD\\AdminBundle\\Controller\\AdminFilmController::listAction',  '_route' => 'admin_film_list',);
+            if (0 === strpos($pathinfo, '/admin/films')) {
+                // admin_film_list
+                if ($pathinfo === '/admin/films/liste') {
+                    return array (  '_controller' => 'TD\\AdminBundle\\Controller\\AdminFilmController::listAction',  '_route' => 'admin_film_list',);
+                }
+
+                // admin_ajoutfilm
+                if ($pathinfo === '/admin/films/ajout') {
+                    return array (  '_controller' => 'TD\\AdminBundle\\Controller\\AdminFilmController::addAction',  '_route' => 'admin_ajoutfilm',);
+                }
+
             }
 
             if (0 === strpos($pathinfo, '/admin/genres')) {

@@ -42,12 +42,7 @@ class Film
      */
     private $dateDeSortie;
 
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="Realisateur", type="string", length=255)
-     */
-    private $realisateur;
+
 
     /**
      * @var string
@@ -147,29 +142,7 @@ class Film
         return $this->dateDeSortie;
     }
 
-    /**
-     * Set realisateur
-     *
-     * @param string $realisateur
-     *
-     * @return Film
-     */
-    public function setRealisateur($realisateur)
-    {
-        $this->realisateur = $realisateur;
 
-        return $this;
-    }
-
-    /**
-     * Get realisateur
-     *
-     * @return string
-     */
-    public function getRealisateur()
-    {
-        return $this->realisateur;
-    }
 
     /**
      * Set genre
@@ -193,5 +166,29 @@ class Film
     public function getGenre()
     {
         return $this->genre;
+    }
+
+/**
+     * Set genre
+     *
+     * @param string $genre
+     *
+     * @return Film
+     */
+    public function setPersonne($personne)
+    {
+        $this->genre = $personne;
+
+        return $this;
+    }
+
+    /**
+     * Get genre
+     *
+     * @return string
+     */
+    public function getPersonne()
+    {
+        return $this->personne;
     }
 }

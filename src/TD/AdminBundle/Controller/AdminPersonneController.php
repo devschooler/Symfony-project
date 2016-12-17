@@ -29,8 +29,8 @@ class AdminPersonneController extends Controller
     public function addAction(Request $request)
     {
 
-        $genre = new Personne(); //on crée un nou veau Genre vide
-        $form = $this->createForm(PersonneType::class, $genre); //on le lie à un formulaire de type GenreType
+        $personne = new Personne(); //on crée un nou veau Genre vide
+        $form = $this->createForm(PersonneType::class, $personne); //on le lie à un formulaire de type GenreType
 
         $form->handleRequest($request); //on lie le formulaire à la requête HTTP
 
