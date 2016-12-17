@@ -1,1 +1,12 @@
-Hello World!
+{% extends 'TDAdminBundle::layout.html.twig' %}
+
+
+{% block body  %}
+
+  <h1>              Bienvenue sur l'administration du cinéma     </h1>
+   <p> ici vous pourrez tout gérer , voir , modifier , créer , supprimer . </p>
+
+  <a href="{{ path('admin_personne_list') }}"> Les realisateurs</a> </br>
+  <a href="{{ path('admin_genre_list') }}">les genres</a> </br>
+  <a href="">Les films </a>
+{% endblock %}

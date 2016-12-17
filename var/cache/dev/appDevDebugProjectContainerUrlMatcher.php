@@ -152,9 +152,9 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
             }
 
-            // td_admin_default_index
+            // admin_all
             if ($pathinfo === '/admin') {
-                return array (  '_controller' => 'TD\\AdminBundle\\Controller\\DefaultController::indexAction',  '_route' => 'td_admin_default_index',);
+                return array (  '_controller' => 'TD\\AdminBundle\\Controller\\DefaultController::indexAction',  '_route' => 'admin_all',);
             }
 
         }

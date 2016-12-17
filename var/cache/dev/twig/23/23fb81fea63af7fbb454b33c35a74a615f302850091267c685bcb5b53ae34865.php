@@ -15,11 +15,11 @@ class __TwigTemplate_595e28db135d3e296483da6c81e770088f763c954db73db418c899dbf81
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_05177f62a95236ab8b22068c4a6987fc311a2fd596095f7f2563c229c66680b4 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_05177f62a95236ab8b22068c4a6987fc311a2fd596095f7f2563c229c66680b4->enter($__internal_05177f62a95236ab8b22068c4a6987fc311a2fd596095f7f2563c229c66680b4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDAdminBundle:Genre:list.html.twig"));
+        $__internal_b401df5ee70423fac76457d0d02adf7d7860f254a3d9b5a01245db1ae24ad7fa = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_b401df5ee70423fac76457d0d02adf7d7860f254a3d9b5a01245db1ae24ad7fa->enter($__internal_b401df5ee70423fac76457d0d02adf7d7860f254a3d9b5a01245db1ae24ad7fa_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDAdminBundle:Genre:list.html.twig"));
 
-        $__internal_80641d9fa7a56d0418878af59b09c48e42e7172bb7368e21c83988be273fb3be = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_80641d9fa7a56d0418878af59b09c48e42e7172bb7368e21c83988be273fb3be->enter($__internal_80641d9fa7a56d0418878af59b09c48e42e7172bb7368e21c83988be273fb3be_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDAdminBundle:Genre:list.html.twig"));
+        $__internal_92da89295fedf6a3c6429d555a1ee61717dc546f9597bf91f2378adddbba30c8 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_92da89295fedf6a3c6429d555a1ee61717dc546f9597bf91f2378adddbba30c8->enter($__internal_92da89295fedf6a3c6429d555a1ee61717dc546f9597bf91f2378adddbba30c8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDAdminBundle:Genre:list.html.twig"));
 
         // line 1
         echo "<h1>Liste des genres :</h1>
@@ -41,7 +41,7 @@ class __TwigTemplate_595e28db135d3e296483da6c81e770088f763c954db73db418c899dbf81
         <a href=\"";
             // line 7
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("admin_genre_supprimer", array("id" => $this->getAttribute($context["genre"], "id", array()))), "html", null, true);
-            echo "\">cliquer ici pour supprimer </a>
+            echo "\">cliquez ici pour supprimer </a>
 
     ";
         }
@@ -55,10 +55,10 @@ class __TwigTemplate_595e28db135d3e296483da6c81e770088f763c954db73db418c899dbf81
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("admin_ajout");
         echo "\">Ajouter</a>";
         
-        $__internal_05177f62a95236ab8b22068c4a6987fc311a2fd596095f7f2563c229c66680b4->leave($__internal_05177f62a95236ab8b22068c4a6987fc311a2fd596095f7f2563c229c66680b4_prof);
+        $__internal_b401df5ee70423fac76457d0d02adf7d7860f254a3d9b5a01245db1ae24ad7fa->leave($__internal_b401df5ee70423fac76457d0d02adf7d7860f254a3d9b5a01245db1ae24ad7fa_prof);
 
         
-        $__internal_80641d9fa7a56d0418878af59b09c48e42e7172bb7368e21c83988be273fb3be->leave($__internal_80641d9fa7a56d0418878af59b09c48e42e7172bb7368e21c83988be273fb3be_prof);
+        $__internal_92da89295fedf6a3c6429d555a1ee61717dc546f9597bf91f2378adddbba30c8->leave($__internal_92da89295fedf6a3c6429d555a1ee61717dc546f9597bf91f2378adddbba30c8_prof);
 
     }
 
@@ -93,7 +93,7 @@ class __TwigTemplate_595e28db135d3e296483da6c81e770088f763c954db73db418c899dbf81
         <li>{{ genre.nom }}</li>
 
             <li><a href=\"{{  path('admin_genre_modif',{'id': genre.id} ) }}\"> Modifier</a></li>
-        <a href=\"{{ path('admin_genre_supprimer', {'id': genre.id}) }}\">cliquer ici pour supprimer </a>
+        <a href=\"{{ path('admin_genre_supprimer', {'id': genre.id}) }}\">cliquez ici pour supprimer </a>
 
     {% endfor %}
 </ul>
