@@ -53,11 +53,11 @@ class AdminFilmController extends Controller
 
             $em = $this->getDoctrine()->getManager(); //on récupère le gestionnaire d'entités de Doctrine
 
-            $em->persist($personne); //on s'en sert pour enregistrer le genre (mais pas encore dans la base de données)
+            $em->persist($film); //on s'en sert pour enregistrer le genre (mais pas encore dans la base de données)
 
             $em->flush(); //écriture en base de toutes les données persistées
 
-            return $this->redirectToRoute('admin_personne_list'); //puis on redirige l'utilisateur vers la page des genres
+            return $this->redirectToRoute('admin_film_list'); //puis on redirige l'utilisateur vers la page des genres
         }
         return $this->render(
             'TDAdminBundle:film:form.html.twig',
@@ -66,4 +66,55 @@ class AdminFilmController extends Controller
 
 
     }
+
+    /**
+     * @Route("/modif/{id}", name="admin_film_modif", requirements={"id": "\d+"})
+     */
+    public function editAction(Request $request, $id)
+    {
+        //on récupère le bon Genre en fonction de l'id donnée dans l'URL
+        $film = $this->getDoctrine()->getRepository('TDCinemaBundle:Film')->find($id);
+
+        $form = $this->createForm(PersonneType::class, $film); //on le lie à un formulaire de type GenreType
+        //Le formulaire sera donc prérempli avec les données de l'objet Genre récupéré en base de données.
+
+        //puis on exécute le même traitement que pour l'ajout
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+            $film = $form->getData();
+
+            $em = $this->getDoctrine()->getManager();
+            $em->persist($film);
+            $em->flush();
+
+            return $this->redirectToRoute('admin_film_list');
+        }
+
+        return $this->render(
+            'TDAdminBundle:Film:form.html.twig',
+            ['form' => $form->createView()]
+        );
+    }
+
+    /**
+     * @Route("/supprimer/{id}", name="admin_film_delete", requirements={"id": "\d+"})
+     */
+    public function deleteAction($id)
+    {
+        //on récupère le bon Genre en fonction de l'id donnée dans l'URL
+        $film = $this->getDoctrine()->getRepository('TDCinemaBundle:Film')->find($id);
+
+        $em = $this->getDoctrine()->getManager(); //on récupère le gestionnaire
+        $em->remove($film); //on supprime cette entité
+        $em->flush(); //exécution en base
+
+        return $this->redirectToRoute('admin_film_list'); //redirection vers la liste
+    }
+
+
+
+
+
+
 }

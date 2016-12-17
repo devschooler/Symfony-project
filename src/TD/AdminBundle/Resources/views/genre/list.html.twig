@@ -1,3 +1,7 @@
+{% extends 'TDAdminBundle::layout.html.twig' %}
+
+
+{% block body %}
 <h1>Liste des genres :</h1>
 <ul>
     {% for genre in genres %}
@@ -9,3 +13,5 @@
     {% endfor %}
 </ul>
 <a href="{{ path('admin_ajout') }}">Ajouter</a>
+
+{% endblock %}

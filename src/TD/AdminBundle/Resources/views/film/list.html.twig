@@ -1,3 +1,8 @@
+{% extends 'TDAdminBundle::layout.html.twig' %}
+
+{% block body %}
+
+
 <h1>Liste des films :</h1>
 <ul>
     {% for film in film %}
@@ -6,8 +11,11 @@
   <li>{{ film.dateDeSortie|date('d,m,Y') }}</li> </br>
             <li> {{ film.personne.prenom }} {{ film.personne.nom }}</li>
 
+        <li><a href="{{  path('admin_film_modif',{'id': film.id} ) }}"> Modifier</a></li>
+        <a href="{{ path('admin_film_delete', {'id': film.id}) }}">cliquez ici pour supprimer </a>
 
     {% endfor %}
 
-    <a href="{{ path('admin_ajout') }}">Ajouter</a>
+    <a href="{{ path('admin_ajoutfilm') }}">Ajouter</a>
 </ul>
+{% endblock %}

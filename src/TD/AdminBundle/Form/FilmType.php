@@ -21,8 +21,9 @@ class FilmType extends AbstractType
         $builder
             ->add('titre')
             ->add('Synopsis')
+
             ->add('date_de_sortie' , DateType::class, array('years' => range('1000','2017')))
-            ->add('Realisateur')
+
             ->add('save', SubmitType::class, array('label' => 'Enregistrer'))
         ;
     }

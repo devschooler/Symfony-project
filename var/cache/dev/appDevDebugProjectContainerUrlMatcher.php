@@ -117,6 +117,16 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
                     return array (  '_controller' => 'TD\\AdminBundle\\Controller\\AdminFilmController::addAction',  '_route' => 'admin_ajoutfilm',);
                 }
 
+                // admin_film_modif
+                if (0 === strpos($pathinfo, '/admin/films/modif') && preg_match('#^/admin/films/modif/(?P<id>\\d+)$#s', $pathinfo, $matches)) {
+                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'admin_film_modif')), array (  '_controller' => 'TD\\AdminBundle\\Controller\\AdminFilmController::editAction',));
+                }
+
+                // admin_film_delete
+                if (0 === strpos($pathinfo, '/admin/films/supprimer') && preg_match('#^/admin/films/supprimer/(?P<id>\\d+)$#s', $pathinfo, $matches)) {
+                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'admin_film_delete')), array (  '_controller' => 'TD\\AdminBundle\\Controller\\AdminFilmController::deleteAction',));
+                }
+
             }
 
             if (0 === strpos($pathinfo, '/admin/genres')) {
