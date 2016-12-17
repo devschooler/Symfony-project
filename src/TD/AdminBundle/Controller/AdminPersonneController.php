@@ -19,9 +19,9 @@ use TD\AdminBundle\Form\PersonneType;
 
 
 /**
- * @Route("/admin/personne")
+ * @Route("/admin/personnes")
  */
-class AdminGenreController extends Controller
+class AdminPersonneController extends Controller
 {
     /**
      * @Route("/ajout" , name="admin_ajoutpersonne")
@@ -50,3 +50,21 @@ class AdminGenreController extends Controller
             ['form' => $form->createView()]
         );
     }
+
+
+    /**
+     * @Route("/list", name="admin_personne_list")
+     */
+
+
+    public function listAction()
+    {
+        $personne = $this->getDoctrine()->getRepository('TDCinemaBundle:Personne')->findAll();
+
+        return $this->render(
+            'TDAdminBundle:Personne:list.html.twig',
+            ['personnes' => $personne]
+        );
+
+    }
+}

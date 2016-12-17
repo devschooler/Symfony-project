@@ -129,6 +129,19 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
             }
 
+            if (0 === strpos($pathinfo, '/admin/personnes')) {
+                // admin_ajoutpersonne
+                if ($pathinfo === '/admin/personnes/ajout') {
+                    return array (  '_controller' => 'TD\\AdminBundle\\Controller\\AdminPersonneController::addAction',  '_route' => 'admin_ajoutpersonne',);
+                }
+
+                // admin_personne_list
+                if ($pathinfo === '/admin/personnes/list') {
+                    return array (  '_controller' => 'TD\\AdminBundle\\Controller\\AdminPersonneController::listAction',  '_route' => 'admin_personne_list',);
+                }
+
+            }
+
             // td_admin_default_index
             if ($pathinfo === '/admin') {
                 return array (  '_controller' => 'TD\\AdminBundle\\Controller\\DefaultController::indexAction',  '_route' => 'td_admin_default_index',);

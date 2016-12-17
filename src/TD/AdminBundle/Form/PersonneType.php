@@ -7,13 +7,13 @@
  */
 
 
-namespace Devschool\AdminBundle\Form;
+namespace TD\AdminBundle\Form;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 
-class GenreType extends AbstractType
+class PersonneType extends AbstractType
 {
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
