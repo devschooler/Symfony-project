@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3a5608e-a221-4bfe-83aa-f2275c3454f7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/7/D/mKduousHwKIZj76HgAvm" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/7/D/mKduousHwKIZj76HgAvm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/F/P/Kqz978RJEB8tJu7IH2M9" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/F/P/Kqz978RJEB8tJu7IH2M9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/M/5/XD4Vgu4f7LRyerSZQa5+" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/M/5/XD4Vgu4f7LRyerSZQa5+" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/Y/W/MLuS+Keg9HyKfG6MIraF" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/Y/W/MLuS+Keg9HyKfG6MIraF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminGenreController.php" afterPath="$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminGenreController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/genre/list.html.twig" afterPath="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/genre/list.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/0/T/sCcG6VKAzBIdJmqlz7l2" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/0/T/sCcG6VKAzBIdJmqlz7l2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/B/P/Y78rEEm7NQjWl6DsCb1q" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/B/P/Y78rEEm7NQjWl6DsCb1q" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/M/T/76HjwhAM-3Libt8Ez08C" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/M/T/76HjwhAM-3Libt8Ez08C" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/S/Y/h99-zCJP1Mtpfk5rKdZW" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/S/Y/h99-zCJP1Mtpfk5rKdZW" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/23/23fb81fea63af7fbb454b33c35a74a615f302850091267c685bcb5b53ae34865.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/23/23fb81fea63af7fbb454b33c35a74a615f302850091267c685bcb5b53ae34865.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/logs/dev.log" afterPath="$PROJECT_DIR$/var/logs/dev.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/sessions/dev/sess_cq0fnib4prukbmketlis6bur63" afterPath="$PROJECT_DIR$/var/sessions/dev/sess_cq0fnib4prukbmketlis6bur63" />
     </list>
     <ignored path="symfony-TD.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -95,8 +84,8 @@
       <file leaf-file-name="AdminGenreController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminGenreController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="104" column="55" selection-start-line="104" selection-start-column="55" selection-end-line="104" selection-end-column="55" />
+            <state relative-caret-position="272">
+              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding>
                 <element signature="e#47#80#0#PHP" expanded="true" />
               </folding>
@@ -748,7 +737,7 @@
       <option name="presentableId" value="Default" />
       <updated>1481554065260</updated>
       <workItem from="1481554066436" duration="33668000" />
-      <workItem from="1481939228685" duration="2540000" />
+      <workItem from="1481939228685" duration="2711000" />
     </task>
     <task id="LOCAL-00001" summary="lama">
       <created>1481555122086</created>
@@ -761,7 +750,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36208000" />
+    <option name="totallyTimeSpent" value="36379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="949" height="1127" extended-state="0" />
@@ -1018,8 +1007,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminGenreController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="104" column="55" selection-start-line="104" selection-start-column="55" selection-end-line="104" selection-end-column="55" />
+        <state relative-caret-position="272">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding>
             <element signature="e#47#80#0#PHP" expanded="true" />
           </folding>

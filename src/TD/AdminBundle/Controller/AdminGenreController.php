@@ -65,7 +65,7 @@ class AdminGenreController extends Controller
     public function editAction(Request $request, $id)
     {
         //on récupère le bon Genre en fonction de l'id donnée dans l'URL
-        $genre = $this->getDoctrine()->getRepository('TDAdminBundle:Genre')->find($id);
+        $genre = $this->getDoctrine()->getRepository('TDCinemaBundle:Genre')->find($id);
 
         $form = $this->createForm(GenreType::class, $genre); //on le lie à un formulaire de type GenreType
         //Le formulaire sera donc prérempli avec les données de l'objet Genre récupéré en base de données.
