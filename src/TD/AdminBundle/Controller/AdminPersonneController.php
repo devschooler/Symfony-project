@@ -67,4 +67,35 @@ class AdminPersonneController extends Controller
         );
 
     }
+    /**
+     * @Route("/modif/{id}", name="admin_personne_modif", requirements={"id": "\d+"})
+     */
+
+    public function editAction(Request $request, $id)
+    {
+        //on récupère le bon Genre en fonction de l'id donnée dans l'URL
+        $personne = $this->getDoctrine()->getRepository('TDCinemaBundle:Personne')->find($id);
+
+        $form = $this->createForm(PersonneType::class, $personne); //on le lie à un formulaire de type GenreType
+        //Le formulaire sera donc prérempli avec les données de l'objet Genre récupéré en base de données.
+
+        //puis on exécute le même traitement que pour l'ajout
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+            $personne = $form->getData();
+
+            $em = $this->getDoctrine()->getManager();
+            $em->persist($personne);
+            $em->flush();
+
+            return $this->redirectToRoute('admin_personne_list');
+        }
+
+        return $this->render(
+            'TDAdminBundle:Personne:form.html.twig',
+            ['form' => $form->createView()]
+        );
+    }
+
 }

@@ -1,9 +1,9 @@
 <h1>Liste des Realisteur :</h1>
 <ul>
     {% for personne in personnes %}
-        <li>{{ personne.nom }}</li>
+        <li>{{ personne.nom }} {{ personne.prenom }}</li>
 
-
+            <li><a href="{{  path('admin_personne_modif',{'id': personne.id} ) }}"> Modifier</a></li>
     {% endfor %}
 </ul>
 <a href="{{ path('admin_ajoutpersonne') }}">Ajouter

@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3a5608e-a221-4bfe-83aa-f2275c3454f7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/8/O/Ww4Mxc1tJDCxfxWHXEAm" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/8/O/Ww4Mxc1tJDCxfxWHXEAm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/G/W/Bcj1mbkXUsrrMAGolZWX" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/G/W/Bcj1mbkXUsrrMAGolZWX" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/X/I/s5dZjjKD2hwZ-0HiAVEO" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/X/I/s5dZjjKD2hwZ-0HiAVEO" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminPersonneController.php" afterPath="$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminPersonneController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TD/AdminBundle/Form/PersonneType.php" afterPath="$PROJECT_DIR$/src/TD/AdminBundle/Form/PersonneType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/personne/list.html.twig" afterPath="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/personne/list.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/D/C/vKVfhdSEa-lgUwOnVEap" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/D/C/vKVfhdSEa-lgUwOnVEap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/L/0/bHt7OO0TFjejGFbfAZbN" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/L/0/bHt7OO0TFjejGFbfAZbN" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/M/N/ZGbvcxDrBtRh2Guvz9LK" afterPath="$PROJECT_DIR$/var/cache/dev/pools/7l4jKsmRSF/M/N/ZGbvcxDrBtRh2Guvz9LK" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/03/039e00e55b3e04a70a82d04189d5c8625a81e981b37d41120921991311cd972e.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/03/039e00e55b3e04a70a82d04189d5c8625a81e981b37d41120921991311cd972e.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/logs/dev.log" afterPath="$PROJECT_DIR$/var/logs/dev.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/sessions/dev/sess_cq0fnib4prukbmketlis6bur63" afterPath="$PROJECT_DIR$/var/sessions/dev/sess_cq0fnib4prukbmketlis6bur63" />
     </list>
@@ -50,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.html.twig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="list.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/personne/list.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            <state relative-caret-position="45">
+              <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -80,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminPersonneController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AdminPersonneController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminPersonneController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="45" column="57" selection-start-line="45" selection-start-column="57" selection-end-line="45" selection-end-column="57" />
+            <state relative-caret-position="168">
+              <caret line="54" column="7" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
                 <element signature="e#131#167#0#PHP" expanded="true" />
@@ -109,8 +118,8 @@
       <file leaf-file-name="list.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/genre/list.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="42" />
+            <state relative-caret-position="75">
+              <caret line="5" column="95" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="95" />
               <folding />
             </state>
           </provider>
@@ -119,8 +128,8 @@
       <file leaf-file-name="AdminGenreController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminGenreController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1009">
-              <caret line="56" column="20" selection-start-line="51" selection-start-column="3" selection-end-line="59" selection-end-column="5" />
+            <state relative-caret-position="166">
+              <caret line="63" column="7" selection-start-line="61" selection-start-column="4" selection-end-line="63" selection-end-column="7" />
               <folding>
                 <element signature="e#47#80#0#PHP" expanded="true" />
               </folding>
@@ -162,9 +171,9 @@
         <option value="$PROJECT_DIR$/src/TD/CinemaBundle/Entity/Personne.php" />
         <option value="$PROJECT_DIR$/src/TD/CinemaBundle/Entity/Film.php" />
         <option value="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/personne/form.html.twig" />
-        <option value="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/personne/list.html.twig" />
         <option value="$PROJECT_DIR$/src/TD/AdminBundle/Form/PersonneType.php" />
         <option value="$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminPersonneController.php" />
+        <option value="$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/personne/list.html.twig" />
       </list>
     </option>
   </component>
@@ -485,6 +494,36 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Tests" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony-TD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony-TD" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TD" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdminBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -494,6 +533,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="personne" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony-TD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony-TD" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TD" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdminBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genre" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -739,7 +812,7 @@
       <option name="presentableId" value="Default" />
       <updated>1481554065260</updated>
       <workItem from="1481554066436" duration="33668000" />
-      <workItem from="1481939228685" duration="8096000" />
+      <workItem from="1481939228685" duration="8356000" />
     </task>
     <task id="LOCAL-00001" summary="lama">
       <created>1481555122086</created>
@@ -752,7 +825,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41764000" />
+    <option name="totallyTimeSpent" value="42024000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1137" height="1127" extended-state="0" />
@@ -971,14 +1044,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/genre/list.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1015,14 +1080,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/personne/list.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/personne/form.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1042,10 +1099,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/genre/list.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="95" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminGenreController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1009">
-          <caret line="56" column="20" selection-start-line="51" selection-start-column="3" selection-end-line="59" selection-end-column="5" />
+        <state relative-caret-position="166">
+          <caret line="63" column="7" selection-start-line="61" selection-start-column="4" selection-end-line="63" selection-end-column="7" />
           <folding>
             <element signature="e#47#80#0#PHP" expanded="true" />
           </folding>
@@ -1054,12 +1119,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Controller/AdminPersonneController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="45" column="57" selection-start-line="45" selection-start-column="57" selection-end-line="45" selection-end-column="57" />
+        <state relative-caret-position="168">
+          <caret line="54" column="7" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
             <element signature="e#131#167#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TD/AdminBundle/Resources/views/personne/list.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>

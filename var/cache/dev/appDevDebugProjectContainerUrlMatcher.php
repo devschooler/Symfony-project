@@ -140,6 +140,11 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
                     return array (  '_controller' => 'TD\\AdminBundle\\Controller\\AdminPersonneController::listAction',  '_route' => 'admin_personne_list',);
                 }
 
+                // admin_personne_modif
+                if (0 === strpos($pathinfo, '/admin/personnes/modif') && preg_match('#^/admin/personnes/modif/(?P<id>\\d+)$#s', $pathinfo, $matches)) {
+                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'admin_personne_modif')), array (  '_controller' => 'TD\\AdminBundle\\Controller\\AdminPersonneController::editAction',));
+                }
+
             }
 
             // td_admin_default_index
