@@ -21,29 +21,29 @@ class __TwigTemplate_519bfbff33e2c1facad412d123e4d18de75d4a41d36645426874e9baed3
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_6218ef018085d9ac55c63977d4bb64bf6cd3ab2c2b3a17504e738b51ec13d86a = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_6218ef018085d9ac55c63977d4bb64bf6cd3ab2c2b3a17504e738b51ec13d86a->enter($__internal_6218ef018085d9ac55c63977d4bb64bf6cd3ab2c2b3a17504e738b51ec13d86a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDCinemaBundle:Personne:list.html.twig"));
+        $__internal_c88c61ffad12d6d20391448757f4165199277b6cbde1f7886ea0b2c7e28d7503 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_c88c61ffad12d6d20391448757f4165199277b6cbde1f7886ea0b2c7e28d7503->enter($__internal_c88c61ffad12d6d20391448757f4165199277b6cbde1f7886ea0b2c7e28d7503_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDCinemaBundle:Personne:list.html.twig"));
 
-        $__internal_934247f0e790ee629351c5a839d7db52cacaab5d64855af0d0bd5ae086b8d86a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_934247f0e790ee629351c5a839d7db52cacaab5d64855af0d0bd5ae086b8d86a->enter($__internal_934247f0e790ee629351c5a839d7db52cacaab5d64855af0d0bd5ae086b8d86a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDCinemaBundle:Personne:list.html.twig"));
+        $__internal_9ab47f43092018803b7813892dc58b7e32a067e9ac8c227d983d1cf965602d05 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_9ab47f43092018803b7813892dc58b7e32a067e9ac8c227d983d1cf965602d05->enter($__internal_9ab47f43092018803b7813892dc58b7e32a067e9ac8c227d983d1cf965602d05_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDCinemaBundle:Personne:list.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_6218ef018085d9ac55c63977d4bb64bf6cd3ab2c2b3a17504e738b51ec13d86a->leave($__internal_6218ef018085d9ac55c63977d4bb64bf6cd3ab2c2b3a17504e738b51ec13d86a_prof);
+        $__internal_c88c61ffad12d6d20391448757f4165199277b6cbde1f7886ea0b2c7e28d7503->leave($__internal_c88c61ffad12d6d20391448757f4165199277b6cbde1f7886ea0b2c7e28d7503_prof);
 
         
-        $__internal_934247f0e790ee629351c5a839d7db52cacaab5d64855af0d0bd5ae086b8d86a->leave($__internal_934247f0e790ee629351c5a839d7db52cacaab5d64855af0d0bd5ae086b8d86a_prof);
+        $__internal_9ab47f43092018803b7813892dc58b7e32a067e9ac8c227d983d1cf965602d05->leave($__internal_9ab47f43092018803b7813892dc58b7e32a067e9ac8c227d983d1cf965602d05_prof);
 
     }
 
     // line 2
     public function block_body($context, array $blocks = array())
     {
-        $__internal_921250ab32c6adf48c74c4f8354104d05559f10e15a1f7eeae3aa1a6498cfc7c = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_921250ab32c6adf48c74c4f8354104d05559f10e15a1f7eeae3aa1a6498cfc7c->enter($__internal_921250ab32c6adf48c74c4f8354104d05559f10e15a1f7eeae3aa1a6498cfc7c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_4c8cfc2d7b23b57dda3979ae85838afe5aa1c811fec7e68e1ed0c3110f06bf3f = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_4c8cfc2d7b23b57dda3979ae85838afe5aa1c811fec7e68e1ed0c3110f06bf3f->enter($__internal_4c8cfc2d7b23b57dda3979ae85838afe5aa1c811fec7e68e1ed0c3110f06bf3f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_8cf278fc179ac855dfc2f200f8b7a447c86d9c815dfc3780badab02720c49b4e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_8cf278fc179ac855dfc2f200f8b7a447c86d9c815dfc3780badab02720c49b4e->enter($__internal_8cf278fc179ac855dfc2f200f8b7a447c86d9c815dfc3780badab02720c49b4e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_c58fdb00dc4e6dee9511aeba4d9285dd60fd3ec77bf5087403e7a28fccbb6dff = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_c58fdb00dc4e6dee9511aeba4d9285dd60fd3ec77bf5087403e7a28fccbb6dff->enter($__internal_c58fdb00dc4e6dee9511aeba4d9285dd60fd3ec77bf5087403e7a28fccbb6dff_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 3
         echo "    <h1>Liste des Realisteur :</h1>
@@ -54,7 +54,7 @@ class __TwigTemplate_519bfbff33e2c1facad412d123e4d18de75d4a41d36645426874e9baed3
         $context['_seq'] = twig_ensure_traversable((isset($context["personnes"]) ? $context["personnes"] : $this->getContext($context, "personnes")));
         foreach ($context['_seq'] as $context["_key"] => $context["personne"]) {
             // line 6
-            echo "   
+            echo "
 
             <div class=\"well\">
                 <div class=\"row\">
@@ -66,7 +66,10 @@ class __TwigTemplate_519bfbff33e2c1facad412d123e4d18de75d4a41d36645426874e9baed3
             echo twig_escape_filter($this->env, $this->getAttribute($context["personne"], "prenom", array()), "html", null, true);
             echo "</strong> (64 ans)<br />
                         <br />
-                        <p></p>
+                        <p>";
+            // line 13
+            echo twig_escape_filter($this->env, $this->getAttribute($context["personne"], "biographie", array()), "html", null, true);
+            echo " </p>
                         <hr />
                         <div class=\"text-right\">
                             <a href=\"cinema-films-realisateur.html\" class=\"btn btn-success\">Voir ses films</a>
@@ -86,10 +89,10 @@ class __TwigTemplate_519bfbff33e2c1facad412d123e4d18de75d4a41d36645426874e9baed3
 
 ";
         
-        $__internal_8cf278fc179ac855dfc2f200f8b7a447c86d9c815dfc3780badab02720c49b4e->leave($__internal_8cf278fc179ac855dfc2f200f8b7a447c86d9c815dfc3780badab02720c49b4e_prof);
+        $__internal_c58fdb00dc4e6dee9511aeba4d9285dd60fd3ec77bf5087403e7a28fccbb6dff->leave($__internal_c58fdb00dc4e6dee9511aeba4d9285dd60fd3ec77bf5087403e7a28fccbb6dff_prof);
 
         
-        $__internal_921250ab32c6adf48c74c4f8354104d05559f10e15a1f7eeae3aa1a6498cfc7c->leave($__internal_921250ab32c6adf48c74c4f8354104d05559f10e15a1f7eeae3aa1a6498cfc7c_prof);
+        $__internal_4c8cfc2d7b23b57dda3979ae85838afe5aa1c811fec7e68e1ed0c3110f06bf3f->leave($__internal_4c8cfc2d7b23b57dda3979ae85838afe5aa1c811fec7e68e1ed0c3110f06bf3f_prof);
 
     }
 
@@ -105,7 +108,7 @@ class __TwigTemplate_519bfbff33e2c1facad412d123e4d18de75d4a41d36645426874e9baed3
 
     public function getDebugInfo()
     {
-        return array (  85 => 24,  64 => 11,  57 => 6,  53 => 5,  49 => 3,  40 => 2,  11 => 1,);
+        return array (  88 => 24,  71 => 13,  64 => 11,  57 => 6,  53 => 5,  49 => 3,  40 => 2,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -123,14 +126,14 @@ class __TwigTemplate_519bfbff33e2c1facad412d123e4d18de75d4a41d36645426874e9baed3
     <h1>Liste des Realisteur :</h1>
     <ul>
         {% for personne in personnes %}
-   
+
 
             <div class=\"well\">
                 <div class=\"row\">
                     <div class=\"col-md-12\">
                         <strong>{{  personne.nom }} {{ personne.prenom }}</strong> (64 ans)<br />
                         <br />
-                        <p></p>
+                        <p>{{ personne.biographie }} </p>
                         <hr />
                         <div class=\"text-right\">
                             <a href=\"cinema-films-realisateur.html\" class=\"btn btn-success\">Voir ses films</a>

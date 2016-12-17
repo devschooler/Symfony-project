@@ -43,6 +43,14 @@ class Personne
     private $dateDeNaissance;
 
     /**
+     * @var string
+     *
+     * @ORM\Column(name="biographie", type="text")
+     */
+    private $biographie;
+
+
+    /**
      * @ORM\OneToMany(targetEntity="Film",mappedBy="personne")
      */
     private $films ;
@@ -95,6 +103,12 @@ class Personne
 
         return $this;
     }
+ public function setBiographie($biographie)
+    {
+        $this->biographie = $biographie;
+
+        return $this;
+    }
 
     /**
      * Get prenom
@@ -104,6 +118,10 @@ class Personne
     public function getPrenom()
     {
         return $this->prenom;
+    }
+public function getBiographie()
+    {
+        return $this->biographie;
     }
 
     /**
