@@ -1,0 +1,11 @@
+<h1>Liste des films :</h1>
+<ul>
+    {% for film in film %}
+        <li>{{ film.titre }}</li> </br>
+            <li>{{ film.synopsis }}</li>
+  <li>{{ film.dateDeSortie|date('d,m,Y') }}</li> </br>
+            <li>{{ film.realisateur }}</li>
+
+
+    {% endfor %}
+</ul>
