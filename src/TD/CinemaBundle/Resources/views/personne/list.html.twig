@@ -1,0 +1,26 @@
+{% extends 'TDCinemaBundle::layout.html.twig' %}
+{% block body %}
+    <h1>Liste des Realisteur :</h1>
+    <ul>
+        {% for personne in personnes %}
+
+
+            <div class="well">
+                <div class="row">
+                    <div class="col-md-12">
+                        <strong>{{  personne.nom }} {{ personne.prenom }}</strong> (64 ans)<br />
+                        <br />
+                        <p></p>
+                        <hr />
+                        <div class="text-right">
+                            <a href="cinema-films-realisateur.html" class="btn btn-success">Voir ses films</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        {% endfor %}
+    </ul>
+
+{% endblock %}

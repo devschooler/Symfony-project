@@ -21,29 +21,29 @@ class __TwigTemplate_78fbc2ca2579ef256618ddd096743f2457da422c9aa88eb5e2fbef015dd
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_be3ff8cd66a344ff2cca238dc8f82c7d805abfbdd976dfaba576fc65116724f0 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_be3ff8cd66a344ff2cca238dc8f82c7d805abfbdd976dfaba576fc65116724f0->enter($__internal_be3ff8cd66a344ff2cca238dc8f82c7d805abfbdd976dfaba576fc65116724f0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDCinemaBundle:Film:list.html.twig"));
+        $__internal_1a31e013f437e06835ff9bcb01dd0abc435cdac965d315c2a16c429263f0bd1a = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_1a31e013f437e06835ff9bcb01dd0abc435cdac965d315c2a16c429263f0bd1a->enter($__internal_1a31e013f437e06835ff9bcb01dd0abc435cdac965d315c2a16c429263f0bd1a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDCinemaBundle:Film:list.html.twig"));
 
-        $__internal_2a26f484fc0c8e96ef23e3744801836156d2917ec5c06871ca901c094877a43e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_2a26f484fc0c8e96ef23e3744801836156d2917ec5c06871ca901c094877a43e->enter($__internal_2a26f484fc0c8e96ef23e3744801836156d2917ec5c06871ca901c094877a43e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDCinemaBundle:Film:list.html.twig"));
+        $__internal_d644d60f1dc4a35bbe53bd81f0678c521e60eb47e5124b6a37835c45b26178cb = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_d644d60f1dc4a35bbe53bd81f0678c521e60eb47e5124b6a37835c45b26178cb->enter($__internal_d644d60f1dc4a35bbe53bd81f0678c521e60eb47e5124b6a37835c45b26178cb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDCinemaBundle:Film:list.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_be3ff8cd66a344ff2cca238dc8f82c7d805abfbdd976dfaba576fc65116724f0->leave($__internal_be3ff8cd66a344ff2cca238dc8f82c7d805abfbdd976dfaba576fc65116724f0_prof);
+        $__internal_1a31e013f437e06835ff9bcb01dd0abc435cdac965d315c2a16c429263f0bd1a->leave($__internal_1a31e013f437e06835ff9bcb01dd0abc435cdac965d315c2a16c429263f0bd1a_prof);
 
         
-        $__internal_2a26f484fc0c8e96ef23e3744801836156d2917ec5c06871ca901c094877a43e->leave($__internal_2a26f484fc0c8e96ef23e3744801836156d2917ec5c06871ca901c094877a43e_prof);
+        $__internal_d644d60f1dc4a35bbe53bd81f0678c521e60eb47e5124b6a37835c45b26178cb->leave($__internal_d644d60f1dc4a35bbe53bd81f0678c521e60eb47e5124b6a37835c45b26178cb_prof);
 
     }
 
     // line 5
     public function block_body($context, array $blocks = array())
     {
-        $__internal_54860bcfaadba2a94e4ba87bca89e0d1c7ef18fe025320c5c8fba0d924044f14 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_54860bcfaadba2a94e4ba87bca89e0d1c7ef18fe025320c5c8fba0d924044f14->enter($__internal_54860bcfaadba2a94e4ba87bca89e0d1c7ef18fe025320c5c8fba0d924044f14_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_cbd23a91d773e06e903f187962c772fbb5eff09af69dbd86d20b9e507ecc3cec = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_cbd23a91d773e06e903f187962c772fbb5eff09af69dbd86d20b9e507ecc3cec->enter($__internal_cbd23a91d773e06e903f187962c772fbb5eff09af69dbd86d20b9e507ecc3cec_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_668bec966a3f5a5197c92ee4718f8f9731ec28b41453c7c2365782cccace4e81 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_668bec966a3f5a5197c92ee4718f8f9731ec28b41453c7c2365782cccace4e81->enter($__internal_668bec966a3f5a5197c92ee4718f8f9731ec28b41453c7c2365782cccace4e81_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_8a061c5f6fb542a63cc14d17a0cf8be085ef896c4e46425ae1e3f169575c5134 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_8a061c5f6fb542a63cc14d17a0cf8be085ef896c4e46425ae1e3f169575c5134->enter($__internal_8a061c5f6fb542a63cc14d17a0cf8be085ef896c4e46425ae1e3f169575c5134_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
         echo "<div class=\"container\">
@@ -74,7 +74,7 @@ class __TwigTemplate_78fbc2ca2579ef256618ddd096743f2457da422c9aa88eb5e2fbef015dd
         $context['_seq'] = twig_ensure_traversable($context["films"]);
         foreach ($context['_seq'] as $context["_key"] => $context["films"]) {
             // line 26
-            echo "
+            echo "r
 
             <div class=\"thumbnail\">
                 <div class=\"caption-full\">
@@ -116,10 +116,10 @@ class __TwigTemplate_78fbc2ca2579ef256618ddd096743f2457da422c9aa88eb5e2fbef015dd
 
 ";
         
-        $__internal_668bec966a3f5a5197c92ee4718f8f9731ec28b41453c7c2365782cccace4e81->leave($__internal_668bec966a3f5a5197c92ee4718f8f9731ec28b41453c7c2365782cccace4e81_prof);
+        $__internal_8a061c5f6fb542a63cc14d17a0cf8be085ef896c4e46425ae1e3f169575c5134->leave($__internal_8a061c5f6fb542a63cc14d17a0cf8be085ef896c4e46425ae1e3f169575c5134_prof);
 
         
-        $__internal_54860bcfaadba2a94e4ba87bca89e0d1c7ef18fe025320c5c8fba0d924044f14->leave($__internal_54860bcfaadba2a94e4ba87bca89e0d1c7ef18fe025320c5c8fba0d924044f14_prof);
+        $__internal_cbd23a91d773e06e903f187962c772fbb5eff09af69dbd86d20b9e507ecc3cec->leave($__internal_cbd23a91d773e06e903f187962c772fbb5eff09af69dbd86d20b9e507ecc3cec_prof);
 
     }
 
@@ -173,7 +173,7 @@ class __TwigTemplate_78fbc2ca2579ef256618ddd096743f2457da422c9aa88eb5e2fbef015dd
             <br />
 
             {% for films in films %}
-
+r
 
             <div class=\"thumbnail\">
                 <div class=\"caption-full\">

@@ -7,29 +7,53 @@ class __TwigTemplate_8a0f3f8b71d6b3d88733bae06d567fc9ffc819e58a6a6c9fcdc0457ea05
     {
         parent::__construct($env);
 
-        $this->parent = false;
-
+        // line 1
+        $this->parent = $this->loadTemplate("TDAdminBundle::layout.html.twig", "TDAdminBundle:Personne:list.html.twig", 1);
         $this->blocks = array(
+            'body' => array($this, 'block_body'),
         );
+    }
+
+    protected function doGetParent(array $context)
+    {
+        return "TDAdminBundle::layout.html.twig";
     }
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_7c63958096175928ec27ee59279c0209822d0b9081be096063c27b57d5dac337 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_7c63958096175928ec27ee59279c0209822d0b9081be096063c27b57d5dac337->enter($__internal_7c63958096175928ec27ee59279c0209822d0b9081be096063c27b57d5dac337_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDAdminBundle:Personne:list.html.twig"));
+        $__internal_24adf7d7988c0bfe273653d14390fc7c1248195cff55e4db0edca5f43871d022 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_24adf7d7988c0bfe273653d14390fc7c1248195cff55e4db0edca5f43871d022->enter($__internal_24adf7d7988c0bfe273653d14390fc7c1248195cff55e4db0edca5f43871d022_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDAdminBundle:Personne:list.html.twig"));
 
-        $__internal_7a1a4c06ae807ccb0deb2029a61c205564a76305752c25e636937e583160f338 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_7a1a4c06ae807ccb0deb2029a61c205564a76305752c25e636937e583160f338->enter($__internal_7a1a4c06ae807ccb0deb2029a61c205564a76305752c25e636937e583160f338_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDAdminBundle:Personne:list.html.twig"));
+        $__internal_978d892065241fad5e3c95b19180451360c5f2fa1adc001da3862631526ded96 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_978d892065241fad5e3c95b19180451360c5f2fa1adc001da3862631526ded96->enter($__internal_978d892065241fad5e3c95b19180451360c5f2fa1adc001da3862631526ded96_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDAdminBundle:Personne:list.html.twig"));
 
-        // line 1
+        $this->parent->display($context, array_merge($this->blocks, $blocks));
+        
+        $__internal_24adf7d7988c0bfe273653d14390fc7c1248195cff55e4db0edca5f43871d022->leave($__internal_24adf7d7988c0bfe273653d14390fc7c1248195cff55e4db0edca5f43871d022_prof);
+
+        
+        $__internal_978d892065241fad5e3c95b19180451360c5f2fa1adc001da3862631526ded96->leave($__internal_978d892065241fad5e3c95b19180451360c5f2fa1adc001da3862631526ded96_prof);
+
+    }
+
+    // line 4
+    public function block_body($context, array $blocks = array())
+    {
+        $__internal_7c471b675b63f2918c495a6e6093e7c0cfda0efbb5811443ea7847d9831e744c = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_7c471b675b63f2918c495a6e6093e7c0cfda0efbb5811443ea7847d9831e744c->enter($__internal_7c471b675b63f2918c495a6e6093e7c0cfda0efbb5811443ea7847d9831e744c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+
+        $__internal_b1bac6ea3941196eafe67a2fb5c7736470a26fa2e84583b03be1443b0ad782a4 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_b1bac6ea3941196eafe67a2fb5c7736470a26fa2e84583b03be1443b0ad782a4->enter($__internal_b1bac6ea3941196eafe67a2fb5c7736470a26fa2e84583b03be1443b0ad782a4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+
+        // line 5
         echo "<h1>Liste des Realisteur :</h1>
 <ul>
     ";
-        // line 3
+        // line 7
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable((isset($context["personnes"]) ? $context["personnes"] : $this->getContext($context, "personnes")));
         foreach ($context['_seq'] as $context["_key"] => $context["personne"]) {
-            // line 4
+            // line 8
             echo "        <li>";
             echo twig_escape_filter($this->env, $this->getAttribute($context["personne"], "nom", array()), "html", null, true);
             echo " ";
@@ -37,11 +61,11 @@ class __TwigTemplate_8a0f3f8b71d6b3d88733bae06d567fc9ffc819e58a6a6c9fcdc0457ea05
             echo "</li>
 
             <li><a href=\"";
-            // line 6
+            // line 10
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("admin_personne_modif", array("id" => $this->getAttribute($context["personne"], "id", array()))), "html", null, true);
             echo "\"> Modifier</a></li>
         <a href=\"";
-            // line 7
+            // line 11
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("admin_personne_delete", array("id" => $this->getAttribute($context["personne"], "id", array()))), "html", null, true);
             echo "\">cliquez ici pour supprimer </a>
 
@@ -50,17 +74,19 @@ class __TwigTemplate_8a0f3f8b71d6b3d88733bae06d567fc9ffc819e58a6a6c9fcdc0457ea05
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['personne'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 10
+        // line 14
         echo "</ul>
 <a href=\"";
-        // line 11
+        // line 15
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("admin_ajoutpersonne");
-        echo "\">Ajouter";
+        echo "\">Ajouter
+
+    ";
         
-        $__internal_7c63958096175928ec27ee59279c0209822d0b9081be096063c27b57d5dac337->leave($__internal_7c63958096175928ec27ee59279c0209822d0b9081be096063c27b57d5dac337_prof);
+        $__internal_b1bac6ea3941196eafe67a2fb5c7736470a26fa2e84583b03be1443b0ad782a4->leave($__internal_b1bac6ea3941196eafe67a2fb5c7736470a26fa2e84583b03be1443b0ad782a4_prof);
 
         
-        $__internal_7a1a4c06ae807ccb0deb2029a61c205564a76305752c25e636937e583160f338->leave($__internal_7a1a4c06ae807ccb0deb2029a61c205564a76305752c25e636937e583160f338_prof);
+        $__internal_7c471b675b63f2918c495a6e6093e7c0cfda0efbb5811443ea7847d9831e744c->leave($__internal_7c471b675b63f2918c495a6e6093e7c0cfda0efbb5811443ea7847d9831e744c_prof);
 
     }
 
@@ -76,7 +102,7 @@ class __TwigTemplate_8a0f3f8b71d6b3d88733bae06d567fc9ffc819e58a6a6c9fcdc0457ea05
 
     public function getDebugInfo()
     {
-        return array (  57 => 11,  54 => 10,  45 => 7,  41 => 6,  33 => 4,  29 => 3,  25 => 1,);
+        return array (  81 => 15,  78 => 14,  69 => 11,  65 => 10,  57 => 8,  53 => 7,  49 => 5,  40 => 4,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -89,7 +115,11 @@ class __TwigTemplate_8a0f3f8b71d6b3d88733bae06d567fc9ffc819e58a6a6c9fcdc0457ea05
 
     public function getSourceContext()
     {
-        return new Twig_Source("<h1>Liste des Realisteur :</h1>
+        return new Twig_Source("{% extends 'TDAdminBundle::layout.html.twig' %}
+
+
+{% block body %}
+<h1>Liste des Realisteur :</h1>
 <ul>
     {% for personne in personnes %}
         <li>{{ personne.nom }} {{ personne.prenom }}</li>
@@ -99,6 +129,8 @@ class __TwigTemplate_8a0f3f8b71d6b3d88733bae06d567fc9ffc819e58a6a6c9fcdc0457ea05
 
     {% endfor %}
 </ul>
-<a href=\"{{ path('admin_ajoutpersonne') }}\">Ajouter", "TDAdminBundle:Personne:list.html.twig", "/Applications/MAMP/htdocs/symfony-TD/src/TD/AdminBundle/Resources/views/Personne/list.html.twig");
+<a href=\"{{ path('admin_ajoutpersonne') }}\">Ajouter
+
+    {% endblock %}", "TDAdminBundle:Personne:list.html.twig", "/Applications/MAMP/htdocs/symfony-TD/src/TD/AdminBundle/Resources/views/Personne/list.html.twig");
     }
 }

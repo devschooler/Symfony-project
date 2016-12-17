@@ -168,17 +168,24 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return array (  '_controller' => 'TD\\CinemaBundle\\Controller\\DefaultController::indexAction',  '_route' => 'td_cinema_default_index',);
         }
 
-        if (0 === strpos($pathinfo, '/Film')) {
-            // films_all
-            if ($pathinfo === '/Film') {
-                return array (  '_controller' => 'TD\\CinemaBundle\\Controller\\DefaultController::listAction',  '_route' => 'films_all',);
-            }
+        // films_all
+        if ($pathinfo === '/Film') {
+            return array (  '_controller' => 'TD\\CinemaBundle\\Controller\\DefaultController::listAction',  '_route' => 'films_all',);
+        }
 
-            // film_page
-            if (preg_match('#^/Film/(?P<id>\\d+)$#s', $pathinfo, $matches)) {
-                return $this->mergeDefaults(array_replace($matches, array('_route' => 'film_page')), array (  '_controller' => 'TD\\CinemaBundle\\Controller\\DefaultController::showAction',));
-            }
+        // personne_all
+        if ($pathinfo === '/personne') {
+            return array (  '_controller' => 'TD\\CinemaBundle\\Controller\\DefaultController::listAction2',  '_route' => 'personne_all',);
+        }
 
+        // film_page
+        if (0 === strpos($pathinfo, '/Film') && preg_match('#^/Film/(?P<id>\\d+)$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'film_page')), array (  '_controller' => 'TD\\CinemaBundle\\Controller\\DefaultController::showAction',));
+        }
+
+        // personne_page
+        if (0 === strpos($pathinfo, '/Personne') && preg_match('#^/Personne/(?P<id>\\d+)$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'personne_page')), array (  '_controller' => 'TD\\CinemaBundle\\Controller\\DefaultController::showAction2',));
         }
 
         // homepage
