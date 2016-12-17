@@ -97,5 +97,19 @@ class AdminPersonneController extends Controller
             ['form' => $form->createView()]
         );
     }
+    /**
+     * @Route("/supprimer/{id}", name="admin_personne_delete", requirements={"id": "\d+"})
+     */
+    public function deleteAction($id)
+    {
+        //on récupère le bon Genre en fonction de l'id donnée dans l'URL
+        $personne = $this->getDoctrine()->getRepository('TDCinemaBundle:Personne')->find($id);
+
+        $em = $this->getDoctrine()->getManager(); //on récupère le gestionnaire
+        $em->remove($personne); //on supprime cette entité
+        $em->flush(); //exécution en base
+
+        return $this->redirectToRoute('admin_personne_list'); //redirection vers la liste
+    }
 
 }

@@ -15,11 +15,11 @@ class __TwigTemplate_8a0f3f8b71d6b3d88733bae06d567fc9ffc819e58a6a6c9fcdc0457ea05
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_6fa25f0c7b63b6b3c00982f691fb6041c2a62e854b0d59b15b9e8bbe8b856fdb = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_6fa25f0c7b63b6b3c00982f691fb6041c2a62e854b0d59b15b9e8bbe8b856fdb->enter($__internal_6fa25f0c7b63b6b3c00982f691fb6041c2a62e854b0d59b15b9e8bbe8b856fdb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDAdminBundle:Personne:list.html.twig"));
+        $__internal_7c63958096175928ec27ee59279c0209822d0b9081be096063c27b57d5dac337 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_7c63958096175928ec27ee59279c0209822d0b9081be096063c27b57d5dac337->enter($__internal_7c63958096175928ec27ee59279c0209822d0b9081be096063c27b57d5dac337_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDAdminBundle:Personne:list.html.twig"));
 
-        $__internal_c4d1c956348300284f5c44e9edd5f7c7d9b2b69b512033e868530462d1be8dfd = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_c4d1c956348300284f5c44e9edd5f7c7d9b2b69b512033e868530462d1be8dfd->enter($__internal_c4d1c956348300284f5c44e9edd5f7c7d9b2b69b512033e868530462d1be8dfd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDAdminBundle:Personne:list.html.twig"));
+        $__internal_7a1a4c06ae807ccb0deb2029a61c205564a76305752c25e636937e583160f338 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_7a1a4c06ae807ccb0deb2029a61c205564a76305752c25e636937e583160f338->enter($__internal_7a1a4c06ae807ccb0deb2029a61c205564a76305752c25e636937e583160f338_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TDAdminBundle:Personne:list.html.twig"));
 
         // line 1
         echo "<h1>Liste des Realisteur :</h1>
@@ -40,22 +40,27 @@ class __TwigTemplate_8a0f3f8b71d6b3d88733bae06d567fc9ffc819e58a6a6c9fcdc0457ea05
             // line 6
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("admin_personne_modif", array("id" => $this->getAttribute($context["personne"], "id", array()))), "html", null, true);
             echo "\"> Modifier</a></li>
+        <a href=\"";
+            // line 7
+            echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("admin_personne_delete", array("id" => $this->getAttribute($context["personne"], "id", array()))), "html", null, true);
+            echo "\">cliquez ici pour supprimer </a>
+
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['personne'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 8
+        // line 10
         echo "</ul>
 <a href=\"";
-        // line 9
+        // line 11
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("admin_ajoutpersonne");
         echo "\">Ajouter";
         
-        $__internal_6fa25f0c7b63b6b3c00982f691fb6041c2a62e854b0d59b15b9e8bbe8b856fdb->leave($__internal_6fa25f0c7b63b6b3c00982f691fb6041c2a62e854b0d59b15b9e8bbe8b856fdb_prof);
+        $__internal_7c63958096175928ec27ee59279c0209822d0b9081be096063c27b57d5dac337->leave($__internal_7c63958096175928ec27ee59279c0209822d0b9081be096063c27b57d5dac337_prof);
 
         
-        $__internal_c4d1c956348300284f5c44e9edd5f7c7d9b2b69b512033e868530462d1be8dfd->leave($__internal_c4d1c956348300284f5c44e9edd5f7c7d9b2b69b512033e868530462d1be8dfd_prof);
+        $__internal_7a1a4c06ae807ccb0deb2029a61c205564a76305752c25e636937e583160f338->leave($__internal_7a1a4c06ae807ccb0deb2029a61c205564a76305752c25e636937e583160f338_prof);
 
     }
 
@@ -71,7 +76,7 @@ class __TwigTemplate_8a0f3f8b71d6b3d88733bae06d567fc9ffc819e58a6a6c9fcdc0457ea05
 
     public function getDebugInfo()
     {
-        return array (  52 => 9,  49 => 8,  41 => 6,  33 => 4,  29 => 3,  25 => 1,);
+        return array (  57 => 11,  54 => 10,  45 => 7,  41 => 6,  33 => 4,  29 => 3,  25 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -90,6 +95,8 @@ class __TwigTemplate_8a0f3f8b71d6b3d88733bae06d567fc9ffc819e58a6a6c9fcdc0457ea05
         <li>{{ personne.nom }} {{ personne.prenom }}</li>
 
             <li><a href=\"{{  path('admin_personne_modif',{'id': personne.id} ) }}\"> Modifier</a></li>
+        <a href=\"{{ path('admin_personne_delete', {'id': personne.id}) }}\">cliquez ici pour supprimer </a>
+
     {% endfor %}
 </ul>
 <a href=\"{{ path('admin_ajoutpersonne') }}\">Ajouter", "TDAdminBundle:Personne:list.html.twig", "/Applications/MAMP/htdocs/symfony-TD/src/TD/AdminBundle/Resources/views/Personne/list.html.twig");
