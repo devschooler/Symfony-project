@@ -42,6 +42,11 @@ class Personne
      */
     private $dateDeNaissance;
 
+    /**
+     * @ORM\OneToMany(targetEntity="Film",mappedBy="personne")
+     */
+    private $films ;
+
 
     /**
      * Get id
@@ -124,5 +129,9 @@ class Personne
     {
         return $this->dateDeNaissance;
     }
-}
 
+   public function getFilm()
+    {
+        return $this->films;
+    }
+}

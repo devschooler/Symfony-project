@@ -56,6 +56,14 @@ class Film
      */
     private $genre;
 
+      /**
+     * @var string
+     *
+     * @ORM\ManyToOne(targetEntity="Personne", inversedBy="Films")
+     */
+    private $personne;
+
+
 
     /**
      * Get id
@@ -187,3 +195,4 @@ class Film
         return $this->genre;
     }
 }
+
