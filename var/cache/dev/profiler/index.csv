@@ -671,3 +671,6 @@ b4d128,127.0.0.1,GET,http://localhost:8000/admin/genres/modif/1,1481942403,,200
 c7f8a8,127.0.0.1,GET,http://localhost:8000/admin/genres/modif/2,1481942411,,200
 d9510e,127.0.0.1,POST,http://localhost:8000/admin/genres/modif/2,1481942417,,302
 fa9f0d,127.0.0.1,GET,http://localhost:8000/admin/genres/liste,1481942417,,200
+6934a8,127.0.0.1,GET,http://localhost:8000/admin/genres/modif/2,1481942948,,200
+b36e19,127.0.0.1,POST,http://localhost:8000/admin/genres/modif/2,1481942953,,302
+e66b1f,127.0.0.1,GET,http://localhost:8000/admin/genres/liste,1481942953,,200
